@@ -1,3 +1,8 @@
+  html{scroll-behavior:smooth;}
+  section[id]{scroll-margin-top:90px;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+  }
   :root{
     --cream:#fdf8f0;
     --cream-deep:#f7ede0;
@@ -59,7 +64,7 @@
   }
   .headerbar{
     display:flex; align-items:center; justify-content:space-between;
-    padding:18px 24px; max-width:1140px; margin:0 auto;
+    padding:18px 24px 18px clamp(24px, 6vw, 96px);
   }
   .brand{
     font-family:'Playfair Display', serif;
