@@ -95,32 +95,51 @@
   }
   .hero video, .hero .hero-still{
     position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
-    filter:saturate(.9) brightness(.8);
+    filter:saturate(.85) brightness(.62);
   }
   .hero::before{
     content:'';
     position:absolute; inset:0;
-    background:rgba(15,13,10,.42);
+    background:linear-gradient(180deg, rgba(10,9,7,.55) 0%, rgba(10,9,7,.72) 55%, rgba(10,9,7,.82) 100%);
   }
   .hero-inner{position:relative; z-index:1; color:#fff; max-width:700px; padding:80px 24px;}
-  .hero-inner .eyebrow{color:var(--gold); letter-spacing:.22em;}
-  .hero-inner h1{font-size:2.9rem; color:#fff; margin:.35em 0 .5em; font-weight:500;}
-  .hero-inner p{font-size:1.1rem; color:#ede6d8; max-width:520px; margin:0 auto;}
+  .hero-inner .eyebrow{color:var(--gold); letter-spacing:.22em; text-shadow:0 2px 14px rgba(0,0,0,.5);}
+  .hero-inner h1{font-size:2.9rem; color:#fff; margin:.35em 0 .5em; font-weight:500; text-shadow:0 4px 24px rgba(0,0,0,.55);}
+  .hero-inner p{font-size:1.1rem; color:#f7f2e8; max-width:520px; margin:0 auto; text-shadow:0 2px 14px rgba(0,0,0,.5);}
 
   .hero-video-prompt{
     display:flex; flex-direction:column; align-items:center; gap:14px;
     margin-top:2.4em; text-decoration:none; color:#fff;
+    background:none; border:none; cursor:pointer; font-family:inherit;
   }
   .hero-play{
-    width:66px; height:66px; border-radius:50%;
-    background:rgba(255,255,255,.14);
-    border:1px solid rgba(255,255,255,.55);
+    width:70px; height:70px; border-radius:50%;
+    background:rgba(0,0,0,.28);
+    border:1.5px solid rgba(255,255,255,.85);
+    box-shadow:0 6px 24px rgba(0,0,0,.4);
     display:flex; align-items:center; justify-content:center;
     transition:background .2s ease, transform .2s ease;
   }
-  .hero-video-prompt:hover .hero-play{background:rgba(255,255,255,.28); transform:scale(1.05);}
+  .hero-video-prompt:hover .hero-play{background:rgba(217,164,65,.85); border-color:var(--gold); transform:scale(1.06);}
   .hero-play svg{margin-left:3px;}
-  .hero-video-prompt span{font-size:.85rem; letter-spacing:.04em; color:#ede6d8;}
+  .hero-video-prompt span{font-size:.85rem; letter-spacing:.04em; color:#fff; text-shadow:0 2px 10px rgba(0,0,0,.6); font-weight:500;}
+
+  /* video lightbox */
+  .video-modal{
+    position:fixed; inset:0; z-index:100; display:none;
+    align-items:center; justify-content:center;
+    background:rgba(10,9,7,.92); padding:24px;
+  }
+  .video-modal.open{display:flex;}
+  .video-modal-frame{
+    position:relative; width:100%; max-width:960px; aspect-ratio:16/9;
+    box-shadow:0 30px 80px rgba(0,0,0,.6);
+  }
+  .video-modal-frame iframe{position:absolute; inset:0; width:100%; height:100%; border:0;}
+  .video-modal-close{
+    position:absolute; top:-44px; right:0; background:none; border:none; cursor:pointer;
+    color:#fff; font-size:.9rem; letter-spacing:.05em; display:flex; align-items:center; gap:8px;
+  }
 
   section{padding:88px 0;}
   .section-head{max-width:640px; margin:0 0 44px;}
@@ -293,14 +312,22 @@
       <div class="eyebrow">Welcome to Vajragarbha</div>
       <h1>Wise and Compassionate Buddhist &amp; Dzogchen Teachings</h1>
       <p>Study directly with Lama Michael Gregory — thirty years in the Indo-Tibetan and Theravāda traditions — through live classes, guided courses, and a path built for the complete journey to liberation.</p>
-      <a class="hero-video-prompt" href="https://www.youtube.com/watch?v=EOzokpqZ9_0" target="_blank" rel="noopener">
+      <button type="button" class="hero-video-prompt" data-video-open="EOzokpqZ9_0">
         <span class="hero-play">
           <svg width="18" height="20" viewBox="0 0 18 20" fill="none"><path d="M1 1.5L17 10L1 18.5V1.5Z" fill="white" stroke="white" stroke-width="1.2" stroke-linejoin="round"/></svg>
         </span>
         <span>Watch Lama Michael &middot; Mindfulness in Challenging Times</span>
-      </a>
+      </button>
     </div>
   </section>
+
+  <!-- VIDEO LIGHTBOX -->
+  <div class="video-modal" id="videoModal">
+    <div class="video-modal-frame">
+      <button type="button" class="video-modal-close" id="videoModalClose">Close &#10005;</button>
+      <div id="videoModalBody"></div>
+    </div>
+  </div>
 
   <!-- FREE ENTRY POINT -->
   <section class="entry" id="start">
@@ -544,5 +571,29 @@
   </div>
 </footer>
 
+<script>
+  (function(){
+    var modal = document.getElementById('videoModal');
+    var body = document.getElementById('videoModalBody');
+    var closeBtn = document.getElementById('videoModalClose');
+
+    function openVideo(id){
+      body.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0" title="Lama Michael Gregory teaching video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeVideo(){
+      modal.classList.remove('open');
+      body.innerHTML = '';
+      document.body.style.overflow = '';
+    }
+    document.querySelectorAll('[data-video-open]').forEach(function(btn){
+      btn.addEventListener('click', function(){ openVideo(btn.getAttribute('data-video-open')); });
+    });
+    closeBtn.addEventListener('click', closeVideo);
+    modal.addEventListener('click', function(e){ if(e.target === modal) closeVideo(); });
+    document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeVideo(); });
+  })();
+</script>
 </body>
 </html>
