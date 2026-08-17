@@ -723,7 +723,7 @@ footer{background:#333a45}
   .hero{height:calc(100svh - 76px - 84px);min-height:500px}
   .trust-strip{min-height:84px}
   .trust-strip .hero-meta{grid-template-columns:repeat(3,1fr)}
-  .trust-strip .hero-meta>span{padding:2px 7px;font-size:8px;letter-spacing:.035em}
+  .trust-strip .hero-meta>span{width:auto;padding:2px 7px;font-size:8px;letter-spacing:.035em}
   .trust-strip .hero-meta strong{font-size:14px;margin-bottom:3px}
 }
 @media(max-height:700px){
@@ -1618,3 +1618,8 @@ body{font-size:16px}
 }
 
 h2{font-size:47px!important}
+@media(max-width:680px){h2{font-size:clamp(30px,8vw,38px)!important}}
+@media(max-width:420px){h2{font-size:clamp(26px,8.5vw,32px)!important}}
+@media(max-width:680px){
+  .free .split,.teacher .split{grid-template-columns:1fr}
+}
