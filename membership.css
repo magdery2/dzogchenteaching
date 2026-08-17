@@ -161,4 +161,18 @@ h2{font-size:47px!important}
     margin-inline:0;
     scroll-snap-align:start;
   }
+  .join-steps{
+    display:flex;
+    grid-template-columns:none;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    -webkit-overflow-scrolling:touch;
+    gap:16px;
+    margin-top:30px;
+    padding-bottom:12px;
+  }
+  .join-steps article{
+    flex:0 0 82%;
+    scroll-snap-align:start;
+  }
 }
