@@ -138,3 +138,27 @@ body.modal-open{overflow:hidden}
 h2{font-size:47px!important}
 @media(max-width:680px){h2{font-size:clamp(30px,8vw,38px)!important}}
 @media(max-width:420px){h2{font-size:clamp(26px,8.5vw,32px)!important}}
+
+/* Swipeable card rows on mobile instead of stacking */
+@media(max-width:680px){
+  #levels .level-grid,
+  #included .benefit-grid,
+  .retreat-grid{
+    display:flex;
+    grid-template-columns:none;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    -webkit-overflow-scrolling:touch;
+    gap:16px;
+    margin-top:30px;
+    padding-bottom:12px;
+  }
+  #levels .level-grid > .level-card,
+  #included .benefit-grid > article,
+  .retreat-grid > article{
+    flex:0 0 82%;
+    max-width:none;
+    margin-inline:0;
+    scroll-snap-align:start;
+  }
+}

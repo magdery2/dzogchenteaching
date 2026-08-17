@@ -1626,3 +1626,26 @@ h2{font-size:47px!important}
 @media(max-width:680px){
   .free .split,.teacher .split{grid-template-columns:1fr}
 }
+
+/* Swipeable step cards on mobile instead of stacking */
+@media(max-width:680px){
+  .path-visual .steps{
+    display:flex;
+    grid-template-columns:none;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    -webkit-overflow-scrolling:touch;
+    gap:14px;
+    border:0;
+    border-radius:0;
+    background:none;
+    padding-bottom:12px;
+  }
+  .path-visual .steps > .step{
+    flex:0 0 80%;
+    scroll-snap-align:start;
+    border:1px solid var(--line)!important;
+    border-radius:var(--radius);
+    background:#fff;
+  }
+}

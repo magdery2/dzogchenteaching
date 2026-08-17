@@ -94,6 +94,8 @@ document.querySelectorAll('[data-course-carousel]').forEach((carousel) => {
 
   if (track.hasAttribute('data-autoscroll') && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     let paused = false;
+    let onScreen = false;
+    let rafId = null;
     let resumeTimer = null;
 
     function pause() {
@@ -120,16 +122,31 @@ document.querySelectorAll('[data-course-carousel]').forEach((carousel) => {
     next.addEventListener('click', () => { moveCourse(1); pauseThenResume(); });
 
     function autoScrollStep() {
-      if (!paused) {
+      if (!paused && !document.hidden && onScreen) {
         if (track.scrollLeft + track.clientWidth >= track.scrollWidth - 1) {
           track.scrollTo({ left: 0, behavior: 'smooth' });
         } else {
           track.scrollLeft += 0.4;
         }
       }
-      requestAnimationFrame(autoScrollStep);
+      rafId = requestAnimationFrame(autoScrollStep);
     }
-    requestAnimationFrame(autoScrollStep);
+
+    const visibilityObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => { onScreen = entry.isIntersecting; });
+    }, { threshold: 0.01 });
+    visibilityObserver.observe(carousel);
+
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden && rafId) {
+        cancelAnimationFrame(rafId);
+        rafId = null;
+      } else if (!document.hidden && !rafId) {
+        rafId = requestAnimationFrame(autoScrollStep);
+      }
+    });
+
+    rafId = requestAnimationFrame(autoScrollStep);
   } else {
     previous.addEventListener('click', () => moveCourse(-1));
     next.addEventListener('click', () => moveCourse(1));
