@@ -1732,7 +1732,7 @@ h2{font-size:47px!important}
   .hero .actions .btn{
     min-height:52px;
     border-radius:4px;
-    font-size:14px;
+    font-size:16px;
     font-weight:700;
   }
   .hero .actions .gold{
@@ -1778,4 +1778,29 @@ h2{font-size:47px!important}
   .free .course-signup{order:7}
   .free .note{order:8}
   .teacher .compact-lineage{order:6}
+
+  /* Comfortable mobile reading scale and a true full-width signup form. */
+  body{font-size:17px}
+  .lead,
+  .free .lead,
+  .teacher .lead{font-size:18px;line-height:1.7}
+  .hero-copy-mobile p{max-width:none;font-size:17px;line-height:1.7}
+  .bullets li{font-size:16px;line-height:1.65}
+  .note,
+  .lineage-card p,
+  .step p,
+  .event p,
+  .check{font-size:15px;line-height:1.65}
+  .link,
+  .path .step .step-cta,
+  .path .step-start .step-cta{font-size:13px}
+  .foot-grid p,.foot-grid a{font-size:14px}
+  .compact-master-image+p small{font-size:13px}
+  .course-signup{
+    width:100%;
+    max-width:none;
+    align-self:stretch;
+    grid-template-columns:minmax(0,1fr);
+  }
+  .course-field,.course-signup .btn{width:100%}
 }
