@@ -1644,8 +1644,14 @@ h2{font-size:47px!important}
   .path-visual .steps > .step{
     flex:0 0 80%;
     scroll-snap-align:start;
-    border:1px solid var(--line)!important;
+    border:0!important;
     border-radius:var(--radius);
     background:#fff;
   }
+}
+
+/* No borders on the "One Path, Taught in Order" cards */
+.path .steps,
+.path .step{
+  border:0!important;
 }
