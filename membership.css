@@ -149,6 +149,8 @@ h2{font-size:var(--font-page-title)!important}
     display:flex;
     grid-template-columns:none;
     overflow-x:auto;
+    overflow-y:hidden;
+    overscroll-behavior-inline:contain;
     scroll-snap-type:x mandatory;
     -webkit-overflow-scrolling:touch;
     gap:16px;
@@ -167,6 +169,8 @@ h2{font-size:var(--font-page-title)!important}
     display:flex;
     grid-template-columns:none;
     overflow-x:auto;
+    overflow-y:hidden;
+    overscroll-behavior-inline:contain;
     scroll-snap-type:x mandatory;
     -webkit-overflow-scrolling:touch;
     gap:16px;
