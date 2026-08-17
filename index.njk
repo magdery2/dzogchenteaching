@@ -11,6 +11,7 @@ eleventyComputed:
 <main id="main">
 <section class="hero" aria-labelledby="hero-title"><div class="wrap hero-content">
  <span class="hero-mark" aria-hidden="true">✧</span>
+ <div class="hero-mobile-kicker">{{ home.hero.eyebrow }}</div>
  <div class="eyebrow"><span class="hero-eyebrow-desktop">{{ home.hero.eyebrow }}</span><span class="hero-eyebrow-mobile">{{ home.hero.heading | safe }}</span></div>
  <h1 id="hero-title">{{ home.hero.heading | safe }}</h1>
  <p class="hero-lead-desktop">{{ home.hero.text }}</p>

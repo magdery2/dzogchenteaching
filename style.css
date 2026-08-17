@@ -855,7 +855,7 @@ footer{background:#333a45}
   }
   .navlinks{
     justify-self:center;
-    font-size:14px;
+    font-size:16px;
     gap:clamp(18px,2.1vw,30px);
   }
   .nav-actions{
@@ -1667,7 +1667,7 @@ h2{font-size:47px!important}
 
 /* Mobile hero: brand and subtitle sit at the top, while the title and CTAs
    anchor to the bottom, leaving the portrait visible through the middle. */
-.hero-copy-mobile,.hero-eyebrow-mobile{display:none}
+.hero-copy-mobile,.hero-eyebrow-mobile,.hero-mobile-kicker{display:none}
 @media(max-width:680px){
   .hero{
     height:100vh!important;
@@ -1697,6 +1697,17 @@ h2{font-size:47px!important}
   .hero-mark{
     display:none;
   }
+  .hero-mobile-kicker{
+    display:block;
+    max-width:320px;
+    color:rgba(255,255,255,.92);
+    font-size:11px;
+    font-weight:700;
+    line-height:1.5;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    text-shadow:0 2px 12px rgba(0,0,0,.5);
+  }
   .hero-eyebrow-desktop{display:none}
   .hero-eyebrow-mobile{display:inline}
   .hero-eyebrow-mobile em{font-style:normal}
@@ -1704,10 +1715,10 @@ h2{font-size:47px!important}
     width:100%;
     max-width:none;
     margin-top:auto;
-    margin-bottom:16px;
-    padding-inline:4px;
+    margin-bottom:24px;
+    padding-inline:2px;
     color:#fff;
-    font:500 clamp(26px,7.8vw,34px)/1.05 var(--serif);
+    font:500 clamp(29px,8.7vw,38px)/1.06 var(--serif);
     letter-spacing:-.025em;
     text-transform:none;
     text-wrap:balance;
@@ -1717,7 +1728,7 @@ h2{font-size:47px!important}
   }
   .hero .eyebrow:before{display:none}
   .hero h1,.hero-lead-desktop{display:none}
-  .hero .actions{width:100%;margin-top:0;gap:10px}
+  .hero .actions{width:100%;margin-top:0;gap:14px}
   .hero .actions .btn{
     min-height:52px;
     border-radius:4px;
