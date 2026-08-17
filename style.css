@@ -1625,6 +1625,8 @@ h2{font-size:47px!important}
 @media(max-width:420px){h2{font-size:clamp(26px,8.5vw,32px)!important}}
 @media(max-width:680px){
   .free .split,.teacher .split{grid-template-columns:1fr}
+  .free .split > *,.teacher .split > *{min-width:0}
+  .free .photo,.teacher .photo{width:100%}
 }
 
 /* Swipeable step cards on mobile instead of stacking */
