@@ -16,5 +16,8 @@
   "type": "commonjs",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6"
+  },
+  "dependencies": {
+    "js-yaml": "^5.3.0"
   }
 }

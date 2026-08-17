@@ -27,9 +27,7 @@ collections:
     files:
       - label: "Homepage"
         name: "index"
-        file: "index.njk"
-        format: "yaml-frontmatter"
-        extension: "njk"
+        file: "_data/home.yml"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
@@ -143,66 +141,51 @@ collections:
               - { label: "Eyebrow", name: "eyebrow", widget: "string" }
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Text", name: "text", widget: "text" }
-          - { name: "body", widget: "hidden" }
       - label: "Tantra"
         name: "tantra"
-        file: "tantra.njk"
-        format: "yaml-frontmatter"
-        extension: "njk"
+        file: "tantra.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
           - { label: "Page content (raw HTML)", name: "body", widget: "text" }
       - label: "Mahayana"
         name: "mahayana"
-        file: "mahayana.njk"
-        format: "yaml-frontmatter"
-        extension: "njk"
+        file: "mahayana.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
           - { label: "Page content (raw HTML)", name: "body", widget: "text" }
       - label: "Dzogchen Transmissions"
         name: "dzogchen-transmissions"
-        file: "dzogchen-transmissions.njk"
-        format: "yaml-frontmatter"
-        extension: "njk"
+        file: "dzogchen-transmissions.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
           - { label: "Page content (raw HTML)", name: "body", widget: "text" }
       - label: "Retreats"
         name: "retreats"
-        file: "retreats.njk"
-        format: "yaml-frontmatter"
-        extension: "njk"
+        file: "retreats.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
           - { label: "Page content (raw HTML)", name: "body", widget: "text" }
       - label: "Membership"
         name: "membership"
-        file: "membership.njk"
-        format: "yaml-frontmatter"
-        extension: "njk"
+        file: "membership.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
           - { label: "Page content (raw HTML)", name: "body", widget: "text" }
       - label: "Donate"
         name: "donate"
-        file: "donate.njk"
-        format: "yaml-frontmatter"
-        extension: "njk"
+        file: "donate.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
           - { label: "Page content (raw HTML)", name: "body", widget: "text" }
       - label: "Wisdom Blog Listing Page"
         name: "wisdom-blog"
-        file: "wisdom-blog.njk"
-        format: "yaml-frontmatter"
-        extension: "njk"
+        file: "wisdom-blog.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }

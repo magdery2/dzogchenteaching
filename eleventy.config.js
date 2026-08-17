@@ -1,4 +1,8 @@
+const yaml = require("js-yaml");
+
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addDataExtension("yml", (contents) => yaml.load(contents));
+
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     const d = new Date(dateObj);
     return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });

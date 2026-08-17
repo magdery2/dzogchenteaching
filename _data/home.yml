@@ -1,0 +1,128 @@
+title: "Vajragarbha - Buddhist & Dzogchen Teachings with Lama Michael Gregory"
+description: "Wise and compassionate Buddhist & Dzogchen teachings with Lama Michael Gregory. Begin with a free six-week mindfulness course, then continue through live teachings and guided practice."
+
+hero:
+  eyebrow: "Interactive, Online & On-Demand Buddhist Courses"
+  heading: "Wise and Compassionate <em>Buddhist &amp; Dzogchen Teachings</em>"
+  text: "A comprehensive, interactive course system on the complete Buddhist path to liberation - following the traditional stages of Lam Rim, from Theravāda and Mahayana through Tantra, Mahamudra, and Dzogchen, taught live with Lama Michael Gregory."
+
+trustStrip:
+  - stat: "30+ years"
+    label: "of Buddhist training"
+  - stat: "Live weekly"
+    label: "guided teachings"
+  - stat: "Free to begin"
+    label: "six-week foundation"
+
+free:
+  eyebrow: "Free to Begin"
+  heading: "A Serious Introduction to Mindfulness"
+  lead: "A six-week video course led personally by Lama Michael. This is the door into everything else we teach: the classical foundations of Buddhist mindfulness, made clear and practical."
+  bullets:
+    - "Six guided video classes, at your own pace"
+    - "Watch how your mental and emotional world unfolds, non-reactively"
+    - "Learn to respond with heart and wisdom"
+    - "No prior experience or membership required"
+  note: "Completing this course is how Lama Michael gets to know you, and where to guide you next on the path."
+
+teacher:
+  eyebrow: "Your Teacher"
+  heading: "About Lama Michael Gregory"
+  bio1: "Lama Michael Gregory is a Buddhist teacher whose training spans more than three decades across the Indo-Tibetan and Theravāda traditions. Beginning his studies in the early 1990s, he apprenticed under many of the greatest meditation masters of Tibet, including HH The Dalai Lama, and his root teacher from his teenage years, HH Penor Rinpoche."
+  bio2: "He teaches the complete Buddhist path to liberation, following the traditional stages of Lam Rim, and personally guides students from their first class toward the practices suited to them."
+  lineageHeading: "Trained Personally Under Living Masters"
+  lineageSub: "An Unbroken Lineage"
+
+ourTeachers:
+  eyebrow: "Our Teachers"
+  heading: "Guidance From Every Background"
+  lead1: "Lama Michael and Lama Philip, together with many other teachers from diverse backgrounds and genders, bring years of experience in teaching and long-term retreat practice."
+  lead2: "Whether you are a beginner or an advanced student, our courses cater to all levels of understanding and help you progress on your spiritual journey toward enlightenment."
+  list:
+    - name: "Lama Michael Gregory"
+      bio: "30+ years in the Indo-Tibetan & Theravāda traditions"
+    - name: "Lama Philip"
+      bio: "Mahayana, Buddha Nature & Tantra teachings"
+    - name: "Lama Kinley"
+      bio: "Bodhisattva's Way of Life, Three Vows & Phowa"
+    - name: "Lama Chris Wilkinson"
+      bio: "Translator & teacher of the Great Perfection Tantras"
+
+path:
+  eyebrow: "The Dzogchen Path"
+  heading: "One Path, Taught in Order"
+  lead: "Most students move through these five stages in sequence, live and in community, with Lama Michael guiding each person toward the right next step."
+  note: "Not sure where you'd start? Begin with the free Mindfulness course above. Lama Michael personally points every student toward their next step from there."
+  steps:
+    - title: "Mindfulness"
+      hours: "12h of teaching"
+      text: "The six-week foundation. Learn to watch the mind clearly before anything else."
+      ctaLabel: "Begin Free"
+    - title: "Mahayana Teachings"
+      hours: "52h of teaching"
+      text: "The path of compassion and bodhicitta, turning practice toward all beings."
+      ctaLabel: "Explore Mahayana"
+    - title: "Tantra Teachings"
+      hours: "48h of teaching"
+      text: "Skillful means. Live weekly with Lama Philip, for students who've taken empowerment."
+      ctaLabel: "Explore Tantra"
+    - title: "Dzogchen Transmissions"
+      hours: "62h of teaching"
+      text: "The Lion Stops Hunting. Live Saturdays with Lama Chris Wilkinson: complete transmission of the Great Perfection Tantras."
+      ctaLabel: "Discover Dzogchen"
+
+live:
+  eyebrow: "Weekly Teaching Schedule"
+  heading: "Live Teachings for Sangha Members"
+  lead: "Our interactive courses encourage collaboration and engagement with both peers and teachers - practice in real time, ask questions, and stay connected to the rhythm of the teachings."
+  accessNote: "Every live class and its recording is included with Sangha membership."
+  events:
+    - day: "Sunday"
+      title: "Sacred Sundays"
+      text: "Mindfulness Meditation and Q&A - Dharma teachings, guided meditation and Q&A on bringing practice into everyday life."
+      time: "8–10am PST"
+    - day: "Tuesday"
+      title: "Maha, Anu & Ati"
+      text: "Live and recorded with Lama Michael: the core weekly Dzogchen class, direct introduction to the nature of mind."
+      time: "4–6pm PST"
+    - day: "Thursday"
+      title: "Tantra Teachings"
+      text: "Teachings with Lama Philip - Buddhist Tantra teachings and Q&A. Suitable for practitioners with empowerment."
+      time: "5–7pm PST"
+    - day: "Monday"
+      title: "Dzogchen & Mahayana"
+      text: "Teachings with Lama Kinley - weekly Dzogchen and Mahayana teachings."
+      time: "4–6pm PST"
+    - day: "Every Day"
+      title: "Daily Guided Meditations with Lama Roseanne"
+      text: "A short guided sit to open the day, every morning."
+      time: "5–6am PST"
+
+membership:
+  eyebrow: "Support Our Dzogchen Sangha"
+  heading: "Vajragarbha: Dzogchen Sangha Membership"
+  lead: "Once you've found your footing on the path, membership is the home for ongoing practice: full access to every live class, the recorded library, and direct connection to the community."
+  checks:
+    - "Live Dzogchen, Tantra & Mahayana Classes: full access to current live course offerings, plus recordings and materials on Teachable."
+    - "Live Classes Every Day: Theravāda, Mahayana, Vajrayana and Tantra teachings with experienced teachers."
+    - "Special Live Sunday Q&A: guided meditation and stories on bringing the teachings into daily life and relationships."
+    - "Private Sangha Group: daily teachings from Lama Michael, exclusively for members."
+    - "Weekly Dharma Mailer: one clear note a week, not a flood of updates."
+  sideEyebrow: "Your Practice Community"
+  sideHeading: "Join the Sangha"
+  sideText: "Become a member for live teachings, the complete recording library, practice resources, and ongoing community support."
+
+quote:
+  text: "Naturally occurring timeless awareness, utterly lucid awakened mind, is something marvelous and superb, primordially and spontaneously present."
+  cite: "Longchenpa"
+
+retreatCenter:
+  eyebrow: "Solo & Group Retreat"
+  heading: "The Quiet Mind Buddhist Retreat Center in San Diego, CA"
+  lead1: "Quiet Mind Retreat Center was created to assist contemplatives and meditators as a place to practice with ongoing instruction from among the very best of living yogis and scholars, in forested hills just outside San Diego."
+  lead2: "We focus on providing the most supportive solo retreat and group retreat experience with crystal clear teaching and meditation, directed by Lama Michael Gregory."
+
+newsletter:
+  eyebrow: "Stay Connected"
+  heading: "Dharma Teachings, Straight to Your Inbox"
+  text: "One list, one weekly note: updates on live classes, courses and retreats. No spam, unsubscribe anytime."
