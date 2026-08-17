@@ -30,9 +30,9 @@ function updateHeader() {
   const delta = currentY - lastScrollY;
   if (currentY < 96) {
     header.classList.remove('header-hidden');
-  } else if (delta > 4) {
+  } else if (delta > 6) {
     header.classList.add('header-hidden');
-  } else if (delta < -4) {
+  } else if (delta < -1) {
     header.classList.remove('header-hidden');
   }
   lastScrollY = currentY;
