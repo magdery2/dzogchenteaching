@@ -1467,8 +1467,10 @@ body{font-size:16px}
   width:100%;
   height:100%;
   object-fit:cover;
+  object-position:center;
   transition:transform .6s cubic-bezier(.22,1,.36,1);
 }
+.membership-step .step-image img{object-position:70% center}
 .path .step:hover .step-image img{transform:scale(1.045)}
 .path .num{
   position:static;
