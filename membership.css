@@ -239,6 +239,7 @@ h2{font-size:var(--font-page-title)!important}
 /* Taller mobile testimonials reveal more of each quote at a glance. */
 @media(max-width:680px){
   .testimonial-grid.testimonial-track{grid-auto-columns:86%}
+  .testimonial-fade{display:none}
   .testimonial-grid figure{
     min-height:330px;
     padding:24px;
