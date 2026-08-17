@@ -51,7 +51,7 @@ collections:
               - { label: "Eyebrow", name: "eyebrow", widget: "string" }
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Lead paragraph", name: "lead", widget: "text" }
-              - { label: "Bullet points (one per line)", name: "bullets", widget: "list" }
+              - { label: "Bullet points (type one per line)", name: "bullets", widget: "text" }
               - { label: "Note under the form", name: "note", widget: "text" }
           - label: "About the Teacher Section"
             name: "teacher"
@@ -116,7 +116,7 @@ collections:
               - { label: "Eyebrow", name: "eyebrow", widget: "string" }
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Lead paragraph", name: "lead", widget: "text" }
-              - { label: "Checklist items (one per line)", name: "checks", widget: "list" }
+              - { label: "Checklist items (type one per line)", name: "checks", widget: "text" }
               - { label: "Side card eyebrow", name: "sideEyebrow", widget: "string" }
               - { label: "Side card heading", name: "sideHeading", widget: "string" }
               - { label: "Side card text", name: "sideText", widget: "text" }

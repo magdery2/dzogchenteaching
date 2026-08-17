@@ -17,20 +17,15 @@ trustStrip:
   - stat: Free to begin
     label: six-week foundation
 free:
-  eyebrow: Free to Begin
-  heading: A Serious Introduction to Mindfulness
-  lead: "A six-week video course led personally by Lama Michael. This is the door
-    into everything else we teach: the classical foundations of Buddhist
-    mindfulness, made clear and practical."
-  bullets:
-    - Six guided video classes
-    - at your own pace
-    - Watch how your mental and emotional world unfolds
-    - non-reactively
+  eyebrow: "Free to Begin"
+  heading: "A Serious Introduction to Mindfulness"
+  lead: "A six-week video course led personally by Lama Michael. This is the door into everything else we teach: the classical foundations of Buddhist mindfulness, made clear and practical."
+  bullets: |
+    - Six guided video classes, at your own pace
+    - Watch how your mental and emotional world unfolds, non-reactively
     - Learn to respond with heart and wisdom
     - No prior experience or membership required
-  note: Completing this course is how Lama Michael gets to know you, and where to
-    guide you next on the path.
+  note: "Completing this course is how Lama Michael gets to know you, and where to guide you next on the path."
 teacher:
   eyebrow: Your Teacher
   heading: About Lama Michael Gregory
@@ -124,23 +119,16 @@ live:
 membership:
   eyebrow: Support Our Dzogchen Sangha
   heading: "Vajragarbha: Dzogchen Sangha Membership"
-  lead: "Once you've found your footing on the path, membership is the home for
-    ongoing practice: full access to every live class, the recorded library, and
-    direct connection to the community."
-  checks:
-    - "Live Dzogchen, Tantra & Mahayana Classes: full access to current live
-      course offerings, plus recordings and materials on Teachable."
-    - "Live Classes Every Day: Theravāda, Mahayana, Vajrayana and Tantra
-      teachings with experienced teachers."
-    - "Special Live Sunday Q&A: guided meditation and stories on bringing the
-      teachings into daily life and relationships."
-    - "Private Sangha Group: daily teachings from Lama Michael, exclusively for
-      members."
-    - "Weekly Dharma Mailer: one clear note a week, not a flood of updates."
-  sideEyebrow: Your Practice Community
-  sideHeading: Join the Sangha
-  sideText: Become a member for live teachings, the complete recording library,
-    practice resources, and ongoing community support.
+  lead: "Once you've found your footing on the path, membership is the home for ongoing practice: full access to every live class, the recorded library, and direct connection to the community."
+  checks: |
+    - Live Dzogchen, Tantra & Mahayana Classes: full access to current live course offerings, plus recordings and materials on Teachable.
+    - Live Classes Every Day: Theravāda, Mahayana, Vajrayana and Tantra teachings with experienced teachers.
+    - Special Live Sunday Q&A: guided meditation and stories on bringing the teachings into daily life and relationships.
+    - Private Sangha Group: daily teachings from Lama Michael, exclusively for members.
+    - Weekly Dharma Mailer: one clear note a week, not a flood of updates.
+  sideEyebrow: "Your Practice Community"
+  sideHeading: "Join the Sangha"
+  sideText: "Become a member for live teachings, the complete recording library, practice resources, and ongoing community support."
 quote:
   text: Naturally occurring timeless awareness, utterly lucid awakened mind, is
     something marvelous and superb, primordially and spontaneously present.

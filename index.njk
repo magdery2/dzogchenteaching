@@ -23,7 +23,7 @@ eleventyComputed:
 <section class="free" id="free"><div class="wrap split">
  <div class="free-copy"><div class="eyebrow">{{ home.free.eyebrow }}</div><h2>{{ home.free.heading }}</h2><div class="rule"></div>
   <p class="lead">{{ home.free.lead }}</p>
-  <ul class="bullets">{% for b in home.free.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+  <ul class="bullets">{% for b in home.free.bullets | splitLines %}<li>{{ b }}</li>{% endfor %}</ul>
   <form class="course-signup" action="#" method="post">
    <div class="course-field"><label for="course-first-name">First name</label><input id="course-first-name" name="first_name" type="text" autocomplete="given-name" placeholder="Your first name" required></div>
    <div class="course-field"><label for="course-email">Email address</label><input id="course-email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="you@example.com" required></div>
@@ -76,7 +76,7 @@ eleventyComputed:
 
 <section class="sangha" id="membership"><div class="wrap membership">
  <div class="membership-content"><div class="eyebrow dark-eyebrow">{{ home.membership.eyebrow }}</div><h2>{{ home.membership.heading }}</h2><p class="lead">{{ home.membership.lead }}</p>
-  <div class="checks">{% for c in home.membership.checks %}<div class="check"><span>✦</span>{{ c }}</div>{% endfor %}</div>
+  <div class="checks">{% for c in home.membership.checks | splitLines %}<div class="check"><span>✦</span>{{ c }}</div>{% endfor %}</div>
  </div>
  <aside class="membership-side"><div class="membership-image"><img src="https://img1.wsimg.com/isteam/ip/20890e6f-b39c-48ec-9eac-84cb7d053e57/DEECAA97-8D54-4238-A307-8BE352B5EC71.jpeg/:/rs=w:900" alt="Vajragarbha Dzogchen Sangha gathering" loading="lazy" decoding="async"></div><div class="membership-cta-card"><div class="eyebrow dark-eyebrow">{{ home.membership.sideEyebrow }}</div><h3>{{ home.membership.sideHeading }}</h3><p>{{ home.membership.sideText }}</p><a class="btn gold" href="membership.html">Become a Member <span aria-hidden="true">→</span></a></div></aside>
 </div></section>
