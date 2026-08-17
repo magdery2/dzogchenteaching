@@ -147,46 +147,46 @@ collections:
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
-          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+          - { name: "body", widget: "hidden" }
       - label: "Mahayana"
         name: "mahayana"
         file: "mahayana.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
-          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+          - { name: "body", widget: "hidden" }
       - label: "Dzogchen Transmissions"
         name: "dzogchen-transmissions"
         file: "dzogchen-transmissions.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
-          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+          - { name: "body", widget: "hidden" }
       - label: "Retreats"
         name: "retreats"
         file: "retreats.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
-          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+          - { name: "body", widget: "hidden" }
       - label: "Membership"
         name: "membership"
         file: "membership.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
-          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+          - { name: "body", widget: "hidden" }
       - label: "Donate"
         name: "donate"
         file: "donate.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
-          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+          - { name: "body", widget: "hidden" }
       - label: "Wisdom Blog Listing Page"
         name: "wisdom-blog"
         file: "wisdom-blog.html"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
-          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+          - { name: "body", widget: "hidden" }
