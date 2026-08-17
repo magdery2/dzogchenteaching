@@ -201,3 +201,37 @@ h2{font-size:var(--font-page-title)!important}
   .course-tradition,
   .course-price-tag{font-size:var(--font-caption)}
 }
+
+/* Mobile calendar cards: generous spacing and safe clearance from accents. */
+@media(max-width:680px){
+  .calendar-list{
+    display:grid;
+    gap:12px;
+    border-top:0;
+  }
+  .calendar-event,
+  .calendar-event:hover{
+    grid-template-columns:88px minmax(0,1fr);
+    align-items:start;
+    gap:18px;
+    padding:24px 14px 24px 20px;
+    border:1px solid rgba(66,74,87,.14);
+    border-radius:8px;
+    background:#fff;
+    box-shadow:0 8px 24px rgba(42,48,58,.05);
+  }
+  .calendar-featured,
+  .calendar-featured:hover{
+    padding-left:24px;
+    background:#f7f2f7;
+  }
+  .calendar-featured:before{
+    width:4px;
+    border-radius:8px 0 0 8px;
+  }
+  .calendar-date{padding-left:2px}
+  .calendar-event h3{margin-top:7px}
+  .calendar-event p{margin-top:8px}
+  .calendar-time{margin-top:8px}
+  .calendar-note{margin-top:20px;padding-inline:4px}
+}

@@ -1857,6 +1857,7 @@ h2{font-size:var(--font-page-title)!important}
   .course-field label{font-size:var(--font-caption)}
   .btn,.hero .actions .btn{font-size:var(--font-action-mobile)}
   .course-field input{font-size:var(--font-body)}
+  .course-signup .btn{margin-top:12px}
   input,select,textarea{font-size:var(--font-body)}
   .navlinks a{font-size:var(--font-body);line-height:1.4}
   main p,main li{text-wrap:pretty}
