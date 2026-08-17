@@ -235,3 +235,17 @@ h2{font-size:var(--font-page-title)!important}
   .calendar-time{margin-top:8px}
   .calendar-note{margin-top:20px;padding-inline:4px}
 }
+
+/* Taller mobile testimonials reveal more of each quote at a glance. */
+@media(max-width:680px){
+  .testimonial-grid.testimonial-track{grid-auto-columns:86%}
+  .testimonial-grid figure{
+    min-height:380px;
+    padding:24px;
+  }
+  .testimonial-grid blockquote{
+    -webkit-line-clamp:9;
+    line-height:1.65;
+  }
+  .testimonial-grid figcaption{padding-top:22px}
+}
