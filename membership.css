@@ -92,8 +92,7 @@ body.modal-open{overflow:hidden}
 .funnel-hero{position:relative;padding:88px 0 96px;overflow:hidden;background:#f5f2f5}.funnel-hero:before{content:"";position:absolute;right:-10%;top:-20%;width:55vw;height:55vw;border-radius:50%;background:rgba(108,25,100,.055);pointer-events:none}.funnel-hero-grid{position:relative;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(360px,.72fr);gap:clamp(60px,8vw,110px);align-items:center}.funnel-hero-copy{max-width:700px}.funnel-hero h1{color:#333a45;font-size:clamp(54px,6vw,82px);line-height:1.01}.funnel-lead{max-width:650px;margin:28px 0 0;font-size:19px;line-height:1.72;color:#626a76}.funnel-points{display:grid;gap:12px;margin:30px 0;padding:0;list-style:none}.funnel-points li{position:relative;padding-left:28px;font-size:15px}.funnel-points li:before{content:"✓";position:absolute;left:0;color:#7d2d73;font-weight:700}.funnel-primary{min-width:220px}.funnel-microcopy{margin:12px 0 0;font-size:12px;color:#737a84}
 .funnel-hero-grid-reverse{grid-template-columns:minmax(320px,.72fr) minmax(0,1.08fr)}
 .funnel-hero-image{height:560px;border-radius:10px;overflow:hidden;box-shadow:var(--shadow)}
-.funnel-hero-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:75% center}
-.membership-page .funnel-hero-image img{transform:scaleX(-1)}
+.funnel-hero-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:35% center}
 .funnel-hero-centered{text-align:center}
 .funnel-hero-copy-centered{max-width:720px;margin-inline:auto}
 .funnel-hero-copy-centered .tantra-course-count{margin:22px auto 0}
