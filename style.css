@@ -1056,15 +1056,11 @@ footer{background:#333a45}
   .course-signup .btn{grid-column:auto}
 }
 
-/* Deep grey section with a subtle Buddhist dharma-wheel texture fused into the color */
+/* Deep grey section */
 .path{
   position:relative;
   overflow:hidden;
   background-color:#353c47;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='0.6' stroke-width='1.4'%3E%3Ccircle cx='60' cy='60' r='34'/%3E%3Ccircle cx='60' cy='60' r='4'/%3E%3Cpath d='M60 26 L60 94 M28.6 43 L91.4 77 M28.6 77 L91.4 43'/%3E%3Cpath d='M60 26a34 34 0 0 1 29.4 17 M60 94a34 34 0 0 1 -29.4 -17 M28.6 43a34 34 0 0 1 0 34 M91.4 77a34 34 0 0 1 0 -34'/%3E%3C/g%3E%3C/svg%3E");
-  background-repeat:repeat;
-  background-size:120px 120px;
-  background-blend-mode:overlay;
   isolation:isolate;
 }
 .path .path-intro h2{color:#fff}
