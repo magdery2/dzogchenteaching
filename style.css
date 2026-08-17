@@ -1470,7 +1470,7 @@ body{font-size:16px}
   object-position:center;
   transition:transform .6s cubic-bezier(.22,1,.36,1);
 }
-.membership-step .step-image img{object-position:70% center}
+.membership-step .step-image img{object-position:92% center}
 .path .step:hover .step-image img{transform:scale(1.045)}
 .path .num{
   position:static;
@@ -1711,4 +1711,3 @@ h2{font-size:47px!important}
     text-align:center;
   }
 }
-
