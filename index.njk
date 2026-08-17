@@ -11,12 +11,14 @@ eleventyComputed:
 <main id="main">
 <section class="hero" aria-labelledby="hero-title"><div class="wrap hero-content">
  <span class="hero-mark" aria-hidden="true">✧</span>
- <div class="eyebrow">{{ home.hero.eyebrow }}</div>
+ <div class="eyebrow"><span class="hero-eyebrow-desktop">{{ home.hero.eyebrow }}</span><span class="hero-eyebrow-mobile">{{ home.hero.heading | safe }}</span></div>
  <h1 id="hero-title">{{ home.hero.heading | safe }}</h1>
  <p class="hero-lead-desktop">{{ home.hero.text }}</p>
  <div class="actions"><a class="btn gold" href="#free">Begin the Free Course <span aria-hidden="true">→</span></a><a class="btn outline" href="#teacher">Meet Lama Michael</a></div>
 </div></section>
-<p class="hero-lead-mobile">{{ home.hero.text }}</p>
+<div class="hero-copy-mobile">
+ <p>{{ home.hero.text }}</p>
+</div>
 
 <section class="trust-strip" aria-label="Teaching highlights"><div class="wrap">
  <div class="hero-meta">{% for item in home.trustStrip %}<span><strong>{{ item.stat }}</strong>{{ item.label }}</span>{% endfor %}</div>
