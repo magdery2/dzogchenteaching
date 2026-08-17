@@ -769,11 +769,14 @@ footer{background:#333a45}
 .site-header .nav{transition:height .25s ease}
 .site-header.scrolled .nav{height:72px}
 .site-header.scrolled{
+  position:fixed;
   box-shadow:0 8px 28px rgba(42,48,58,.12);
   background:#fff;
   
 }
+.site-header.scrolled+main{padding-top:96px}
 @media(max-width:680px){
+  .site-header.scrolled+main{padding-top:76px}
   .site-header.scrolled .nav{height:64px}
   .site-header.scrolled .navlinks{inset:64px 0 auto}
 }
