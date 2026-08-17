@@ -248,4 +248,6 @@ h2{font-size:var(--font-page-title)!important}
     line-height:1.65;
   }
   .testimonial-grid figcaption{padding-top:22px}
+  .membership-page .testimonial-grid figure{min-height:430px}
+  .membership-page .testimonial-grid blockquote{-webkit-line-clamp:11}
 }
