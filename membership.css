@@ -18,7 +18,7 @@
 body.modal-open{overflow:hidden}
 .testimonial-modal[hidden]{display:none}
 .testimonial-modal{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:24px}
-.testimonial-modal-backdrop{position:absolute;inset:0;background:rgba(20,23,29,.72);backdrop-filter:blur(4px)}
+.testimonial-modal-backdrop{position:absolute;inset:0;background:rgba(20,23,29,.72);}
 .testimonial-modal-card{position:relative;z-index:1;width:100%;max-width:560px;max-height:85vh;overflow-y:auto;padding:44px;border-radius:12px;background:#3a414d;box-shadow:0 40px 90px rgba(0,0,0,.4)}
 .testimonial-modal-close{position:absolute;top:18px;right:18px;display:grid;place-items:center;width:36px;height:36px;border:1px solid rgba(255,255,255,.2);border-radius:50%;background:transparent;color:rgba(255,255,255,.75);cursor:pointer;transition:background .2s,border-color .2s,color .2s}
 .testimonial-modal-close:hover,.testimonial-modal-close:focus-visible{transform:scale(1.06)}
@@ -87,7 +87,7 @@ body.modal-open{overflow:hidden}
 #courses .benefit-grid article,#retreats .benefit-grid article,#posts .benefit-grid article,#included .benefit-grid article{align-self:stretch}
 #courses .benefit-grid article>div,#retreats .benefit-grid article>div,#posts .benefit-grid article>div,#included .benefit-grid article>div{display:flex;flex-direction:column;flex:1}
 #courses .benefit-grid .course-buy,#retreats .benefit-grid .course-buy,#posts .benefit-grid .course-buy,#included .benefit-grid .course-buy{width:100%;margin-top:20px}
-.funnel-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);border-bottom:1px solid rgba(66,74,87,.13);backdrop-filter:blur(14px)}
+.funnel-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);border-bottom:1px solid rgba(66,74,87,.13);}
 .funnel-nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:30px}.funnel-nav .brand{color:#333a45}.funnel-login{font-size:14px;color:#68707c}.funnel-login strong{color:#6c1964;margin-left:4px}
 .funnel-hero{position:relative;padding:88px 0 96px;overflow:hidden;background:#f5f2f5}.funnel-hero:before{content:"";position:absolute;right:-10%;top:-20%;width:55vw;height:55vw;border-radius:50%;background:rgba(108,25,100,.055);pointer-events:none}.funnel-hero-grid{position:relative;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(360px,.72fr);gap:clamp(60px,8vw,110px);align-items:center}.funnel-hero-copy{max-width:700px}.funnel-hero h1{color:#333a45;font-size:clamp(54px,6vw,82px);line-height:1.01}.funnel-lead{max-width:650px;margin:28px 0 0;font-size:19px;line-height:1.72;color:#626a76}.funnel-points{display:grid;gap:12px;margin:30px 0;padding:0;list-style:none}.funnel-points li{position:relative;padding-left:28px;font-size:15px}.funnel-points li:before{content:"✓";position:absolute;left:0;color:#7d2d73;font-weight:700}.funnel-primary{min-width:220px}.funnel-microcopy{margin:12px 0 0;font-size:12px;color:#737a84}
 .funnel-hero-grid-reverse{grid-template-columns:minmax(320px,.72fr) minmax(0,1.08fr)}

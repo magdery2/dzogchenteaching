@@ -16,13 +16,26 @@ document.querySelectorAll('.navlinks a[href]').forEach((link) => {
   if (hrefFile === currentFile) link.classList.add('is-active');
 });
 
+let lastScrollY = window.scrollY;
+
 function updateHeader() {
+  const currentY = window.scrollY;
   const isScrolled = header.classList.contains('scrolled');
-  if (!isScrolled && window.scrollY > 64) {
+  if (!isScrolled && currentY > 64) {
     header.classList.add('scrolled');
-  } else if (isScrolled && window.scrollY < 32) {
+  } else if (isScrolled && currentY < 32) {
     header.classList.remove('scrolled');
   }
+
+  const delta = currentY - lastScrollY;
+  if (currentY < 96) {
+    header.classList.remove('header-hidden');
+  } else if (delta > 4) {
+    header.classList.add('header-hidden');
+  } else if (delta < -4) {
+    header.classList.remove('header-hidden');
+  }
+  lastScrollY = currentY;
 }
 
 function setMenu(open, returnFocus = false) {
@@ -30,6 +43,7 @@ function setMenu(open, returnFocus = false) {
   toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
   navigation.classList.toggle('open', open);
   document.body.classList.toggle('menu-open', open);
+  if (open) header.classList.remove('header-hidden');
 
   if (returnFocus) toggle.focus();
 }
