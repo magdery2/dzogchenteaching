@@ -17,6 +17,8 @@ document.querySelectorAll('.navlinks a[href]').forEach((link) => {
 });
 
 let lastScrollY = window.scrollY;
+let scrollDirection = 0;
+let scrollDirectionStart = lastScrollY;
 
 function updateHeader() {
   const currentY = window.scrollY;
@@ -28,12 +30,18 @@ function updateHeader() {
   }
 
   const delta = currentY - lastScrollY;
+  const nextDirection = delta > 0 ? 1 : delta < 0 ? -1 : scrollDirection;
+  if (nextDirection !== scrollDirection) {
+    scrollDirection = nextDirection;
+    scrollDirectionStart = currentY;
+  }
+
   if (currentY < 96) {
     header.classList.remove('header-hidden');
-  } else if (delta > 6) {
-    header.classList.add('header-hidden');
-  } else if (delta < -1) {
+  } else if (scrollDirection < 0) {
     header.classList.remove('header-hidden');
+  } else if (scrollDirection > 0 && currentY - scrollDirectionStart > 24) {
+    header.classList.add('header-hidden');
   }
   lastScrollY = currentY;
 }

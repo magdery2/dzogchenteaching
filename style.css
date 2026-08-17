@@ -41,6 +41,7 @@ img{max-width:100%;height:auto}
 /* Navigation */
 .site-header{position:absolute;top:0;left:0;right:0;z-index:50;color:#fff;transition:background .25s,box-shadow .25s,transform .25s}
 .site-header.scrolled.header-hidden{transform:translateY(-100%)}
+.site-header.scrolled:not(.header-hidden){position:fixed;top:0;transform:translateY(0)}
 .site-header.scrolled{position:fixed;background:rgba(18,23,20,.94);box-shadow:0 1px 0 rgba(255,255,255,.08)}
 .nav{height:88px;display:flex;align-items:center;justify-content:space-between;gap:28px}
 .brand{font:500 19px/1 var(--serif);letter-spacing:.12em;text-transform:uppercase;display:flex;gap:12px;align-items:center;white-space:nowrap}
@@ -1891,10 +1892,10 @@ h2{font-size:var(--font-page-title)!important}
 }
 @media(max-width:680px){
   .event{
-    grid-template-columns:100px minmax(0,1fr);
-    column-gap:22px;
+    grid-template-columns:104px minmax(0,1fr);
+    column-gap:28px;
   }
-  .event-day{padding-right:18px}
+  .event-day{padding-right:24px}
   .membership-promo{padding:28px 24px 26px}
   .path .membership-step .step-hours-included{
     width:100%;
