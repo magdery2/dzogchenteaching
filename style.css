@@ -1692,7 +1692,7 @@ h2{font-size:47px!important}
     align-items:center;
     text-align:center;
     min-height:100%;
-    padding:max(84px,calc(68px + env(safe-area-inset-top))) 0 max(24px,env(safe-area-inset-bottom));
+    padding:max(80px,calc(64px + env(safe-area-inset-top))) 0 max(24px,env(safe-area-inset-bottom));
   }
   .hero-mark{
     display:none;
@@ -1701,7 +1701,7 @@ h2{font-size:47px!important}
     display:block;
     max-width:320px;
     color:rgba(255,255,255,.92);
-    font-size:11px;
+    font-size:14px;
     font-weight:700;
     line-height:1.5;
     letter-spacing:.14em;
@@ -1757,4 +1757,25 @@ h2{font-size:47px!important}
     font-size:15px;
     line-height:1.68;
   }
+
+  /* Place each section image directly beneath its heading on mobile. */
+  .free .split,.teacher .split{
+    display:flex;
+    flex-direction:column;
+    gap:0;
+  }
+  .free-copy,.teacher .split>div:last-child{display:contents}
+  .free .eyebrow,.teacher .eyebrow{order:1}
+  .free h2,.teacher h2{order:2}
+  .free .photo-card,.teacher .photo-card{
+    order:3;
+    width:100%;
+    margin:28px 0 32px;
+  }
+  .free .rule,.teacher .rule{order:4}
+  .free .lead,.teacher .lead{order:5}
+  .free .bullets{order:6}
+  .free .course-signup{order:7}
+  .free .note{order:8}
+  .teacher .compact-lineage{order:6}
 }
