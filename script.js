@@ -10,9 +10,9 @@ const navigation = document.getElementById('navLinks');
 
 const currentFile = location.pathname.split('/').pop() || 'index.html';
 document.querySelectorAll('.navlinks a[href]').forEach((link) => {
-  const hrefPath = link.getAttribute('href').split('#')[0];
-  if (!hrefPath) return;
-  const hrefFile = hrefPath.split('/').pop();
+  const href = link.getAttribute('href');
+  if (href.includes('#')) return;
+  const hrefFile = href.split('/').pop();
   if (hrefFile === currentFile) link.classList.add('is-active');
 });
 
