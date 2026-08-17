@@ -291,6 +291,7 @@ h2{max-width:760px;line-height:1.02}
 }
 .hero .actions{display:flex;flex-wrap:wrap;gap:12px}
 .hero .btn{min-height:48px;padding-inline:23px}
+.hero-mark{display:none}
 
 @media(max-width:980px){
   .hero-content{width:min(100% - 40px,var(--content-max))}
@@ -486,9 +487,13 @@ h2{font-size:clamp(41px,4vw,57px);line-height:1.09;letter-spacing:-.028em}
 }
 
 @media(max-width:680px){
-  .hero-content{padding:36px 0 42px}
-  .hero .actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-  .hero .actions .btn{width:auto;padding-inline:12px;text-align:center}
+  .hero-content{padding:36px 0 42px;text-align:center;display:flex;flex-direction:column;align-items:center}
+  .hero-mark{display:flex;align-items:center;justify-content:center;width:46px;height:46px;margin:0 0 18px;border:1px solid rgba(255,255,255,.4);border-radius:50%;color:#fff;font-size:19px}
+  .hero .eyebrow{max-width:280px}
+  .hero h1{max-width:340px}
+  .hero p{max-width:340px}
+  .hero .actions{display:flex;flex-direction:column;width:100%;max-width:340px;gap:10px;margin-top:6px}
+  .hero .actions .btn{width:100%;padding-inline:12px;text-align:center}
   .hero-meta{margin-top:24px;padding-top:16px}
 }
 @media(max-height:720px){
@@ -1504,10 +1509,6 @@ body{font-size:16px}
   .site-header .brand{transform:translateX(-28px)}
   .hero-content{transform:translateX(-28px)}
   .path-visual .steps{grid-template-columns:repeat(4,minmax(0,1fr))}
-  .path-visual .step:last-child{
-    grid-column:1/-1;
-    width:100%;
-  }
 }
 
 /* Membership capstone for the Dzogchen path */
@@ -1657,3 +1658,14 @@ h2{font-size:47px!important}
 .path .step{
   border:0!important;
 }
+
+/* .path-visual carries a stale display:flex from an old art-directed layout;
+   force it back to simple block stacking now that the promo card is a sibling of .steps */
+.path-visual{display:block}
+
+/* Let the mobile hero grow to fit its content instead of clipping to the viewport */
+@media(max-width:680px){
+  .hero{height:auto!important;min-height:0!important;max-height:none!important;padding-top:0}
+  .hero-content{padding:44px 0 40px}
+}
+
