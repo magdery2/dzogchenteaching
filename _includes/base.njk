@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="{{ themeColor or "#252a34" }}">
+<meta name="robots" content="index,follow">
+<title>{{ metaTitle or title }}</title>
+<meta name="description" content="{{ description }}">
+{% if ogTitle %}<meta property="og:type" content="website">
+<meta property="og:title" content="{{ ogTitle }}">
+<meta property="og:description" content="{{ ogDescription or description }}">
+<meta name="twitter:card" content="summary">
+{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+{% if funnel %}<link rel="stylesheet" href="membership.css">
+{% endif %}
+</head>
+<body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header" id="siteHeader"><div class="wrap nav">
+ <a class="brand" href="index.html" aria-label="Vajragarbha home"><span class="mark" aria-hidden="true">✧</span><span>Vajragarbha<small>Buddhist &amp; Dzogchen Teachings</small></span></a>
+ <nav class="navlinks" id="navLinks" aria-label="Primary navigation"><a href="index.html#path">The Dzogchen Path</a><a href="index.html#live">Live Teachings</a><a href="membership.html">Membership</a><a href="retreats.html">Retreats</a><a href="wisdom-blog.html">Wisdom Blog</a><a class="mobile-donate" href="donate.html">Donate</a><a class="mobile-login" href="https://buddhist-and-dzogchen-teachings.teachable.com/">Student Login</a></nav>
+ <div class="nav-actions">
+  <a class="btn donate-nav" href="donate.html">Donate</a>
+  <a class="btn gold nav-cta" href="https://buddhist-and-dzogchen-teachings.teachable.com/">Student Login</a>
+  <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span></button>
+ </div>
+</div></header>
+
+{{ content | safe }}
+
+<footer><div class="wrap"><div class="foot-grid"><div><div class="brand footer-brand"><span class="mark" aria-hidden="true">✧</span><span>Vajragarbha</span></div><p>Wise and Compassionate Buddhist &amp; Dzogchen Teachings, with Lama Michael Gregory.</p><p><a href="mailto:info@dzogchenteaching.com">info@dzogchenteaching.com</a></p><div class="social social-prominent"><a href="https://www.facebook.com/michael.gregory.9212" target="_blank" rel="noopener" aria-label="Vajragarbha on Facebook"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 8.5h2V5.5h-2c-2.21 0-4 1.79-4 4v2H9v3h2V21h3v-6.5h2.4l.6-3H14v-2c0-.55.45-1 1-1Z" fill="currentColor"/></svg></a><a href="https://www.instagram.com/mindmichael" target="_blank" rel="noopener" aria-label="Vajragarbha on Instagram"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg></a></div></div><div><h4>Teachings</h4><div class="foot-links"><a href="index.html#free">Free Mindfulness Course</a><a href="index.html#path">The Dzogchen Path</a><a href="index.html#live">Live Courses</a><a href="dzogchen-transmissions.html">Dzogchen Transmissions</a></div></div><div><h4>Retreats</h4><div class="foot-links"><a href="retreats.html">All Retreats</a><a href="retreats.html#retreats">The 2026 30 Day Retreat</a><a href="retreats.html#retreat-center">Retreat Center San Diego</a></div></div><div><h4>Community</h4><div class="foot-links"><a href="membership.html">Membership</a><a href="wisdom-blog.html">Wisdom Blog</a><a href="donate.html">Donate</a></div></div></div><div class="copy"><span>Copyright © 2026 Vajragarbha: Wise and Compassionate Buddhist Teachings.</span><span>All rights reserved.</span></div></div></footer>
+{% if extraFoot %}{{ extraFoot | safe }}
+{% endif %}
+<script src="script.js" defer></script>
+</body>
+</html>

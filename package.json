@@ -1,0 +1,20 @@
+{
+  "name": "dzogchenteaching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-magdery2:magdery2/dzogchenteaching.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}

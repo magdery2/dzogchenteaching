@@ -1,0 +1,26 @@
+---
+layout: base.njk
+bodyClass: "funnel-page path-page"
+funnel: true
+---
+{% set posts = collections.blog %}
+{% set nextPost = null %}
+{% for p in posts %}{% if p.url == page.url %}{% set nextPost = posts[(loop.index0 + 1) % posts.length] %}{% endif %}{% endfor %}
+<main id="main">
+<section class="funnel-hero"><div class="wrap narrow">
+ <div class="article-breadcrumb"><a href="wisdom-blog.html">Wisdom Blog</a><span aria-hidden="true">/</span><span>{{ title }}</span></div>
+ <div class="eyebrow">{{ eyebrow or "Reflection" }}</div>
+ <h1 class="article-title">{{ title }}</h1>
+ <div class="article-meta"><span>{{ author }}</span><span aria-hidden="true">·</span><span>{{ date | readableDate }}</span></div>
+</div></section>
+
+<section class="article-section"><div class="wrap narrow">
+ <figure class="article-featured"><img src="{{ image }}" alt="{{ imageAlt }}"></figure>
+ <div class="article-body">
+  {{ content | safe }}
+ </div>
+ <div class="article-nav">{% if nextPost and nextPost.url != page.url %}<a href="{{ nextPost.data.href }}">Next: {{ nextPost.data.title }} <span aria-hidden="true">→</span></a>{% endif %}<a href="wisdom-blog.html">← All Posts</a></div>
+</div></section>
+
+<section class="funnel-final"><div class="wrap funnel-final-grid"><div><div class="eyebrow">The Path Continues Here</div><h2>Practice with Guidance.<br>Grow with Community.</h2><p>Join the Vajragarbha Dzogchen Sangha and receive the structure, teachings, and support for a sincere long-term practice.</p></div><div class="final-action"><div><strong>From $149</strong><span>monthly</span></div><a class="btn gold" href="membership.html#levels">Choose Your Membership <span aria-hidden="true">↑</span></a><a href="wisdom-blog.html">Return to the Wisdom Blog</a></div></div></section>
+</main>

@@ -1,0 +1,83 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "blog"
+    label: "Wisdom Blog Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Short description (used for search engines and social sharing)", name: "description", widget: "text" }
+      - { label: "Author", name: "author", widget: "string", default: "Lama Michael Gregory" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Featured image", name: "image", widget: "image" }
+      - { label: "Image alt text", name: "imageAlt", widget: "string" }
+      - { label: "Eyebrow label", name: "eyebrow", widget: "string", default: "Reflection" }
+      - { label: "Excerpt (shown on the blog listing card)", name: "excerpt", widget: "text" }
+      - { label: "Post body", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Site Pages"
+    files:
+      - label: "Homepage"
+        name: "index"
+        file: "index.njk"
+        fields:
+          - { label: "Page title (browser tab)", name: "title", widget: "string" }
+          - { label: "Meta description", name: "description", widget: "text" }
+          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+      - label: "Tantra"
+        name: "tantra"
+        file: "tantra.njk"
+        fields:
+          - { label: "Page title (browser tab)", name: "title", widget: "string" }
+          - { label: "Meta description", name: "description", widget: "text" }
+          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+      - label: "Mahayana"
+        name: "mahayana"
+        file: "mahayana.njk"
+        fields:
+          - { label: "Page title (browser tab)", name: "title", widget: "string" }
+          - { label: "Meta description", name: "description", widget: "text" }
+          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+      - label: "Dzogchen Transmissions"
+        name: "dzogchen-transmissions"
+        file: "dzogchen-transmissions.njk"
+        fields:
+          - { label: "Page title (browser tab)", name: "title", widget: "string" }
+          - { label: "Meta description", name: "description", widget: "text" }
+          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+      - label: "Retreats"
+        name: "retreats"
+        file: "retreats.njk"
+        fields:
+          - { label: "Page title (browser tab)", name: "title", widget: "string" }
+          - { label: "Meta description", name: "description", widget: "text" }
+          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+      - label: "Membership"
+        name: "membership"
+        file: "membership.njk"
+        fields:
+          - { label: "Page title (browser tab)", name: "title", widget: "string" }
+          - { label: "Meta description", name: "description", widget: "text" }
+          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+      - label: "Donate"
+        name: "donate"
+        file: "donate.njk"
+        fields:
+          - { label: "Page title (browser tab)", name: "title", widget: "string" }
+          - { label: "Meta description", name: "description", widget: "text" }
+          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+      - label: "Wisdom Blog Listing Page"
+        name: "wisdom-blog"
+        file: "wisdom-blog.njk"
+        fields:
+          - { label: "Page title (browser tab)", name: "title", widget: "string" }
+          - { label: "Meta description", name: "description", widget: "text" }
+          - { label: "Page content (raw HTML)", name: "body", widget: "text" }

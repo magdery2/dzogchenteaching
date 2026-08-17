@@ -1,0 +1,36 @@
+---
+layout: base.njk
+permalink: "wisdom-blog.html"
+title: "Wisdom Blog - Vajragarbha Dzogchen Sangha"
+description: "Reflections on awareness, practice, and the contemplative path from Lama Michael Gregory."
+bodyClass: "funnel-page path-page"
+funnel: true
+extraFoot: |
+  <div class="mobile-join"><span>Wisdom Blog <strong>2 essays</strong></span><a class="btn gold" href="#posts">Read the Posts</a></div>
+---
+<main id="main">
+<section class="funnel-hero"><div class="wrap funnel-hero-grid">
+ <div class="funnel-hero-copy"><div class="eyebrow">Vajragarbha · Wisdom Blog</div><h1>Wisdom Blog.<br>Notes From the Path.</h1><p class="funnel-lead">Short reflections on awareness, practice, and the contemplative path, written by Lama Michael Gregory for students walking the path in daily life.</p>
+  <ul class="funnel-points"><li>Direct reflections on Dzogchen and awareness</li><li>Written by Lama Michael Gregory</li><li>Free to read - no membership required</li></ul>
+  <a class="btn gold funnel-primary" href="#posts">Read the Latest Post <span aria-hidden="true">↓</span></a><p class="funnel-microcopy">New reflections are added as they're written.</p>
+ </div>
+ <aside class="funnel-offer" aria-label="Latest post">{% set latest = collections.blog[0] %}<div class="offer-image"><img src="{{ latest.data.image }}" alt="{{ latest.data.imageAlt }}" width="600" height="450"></div><div class="offer-content"><span class="offer-kicker">Latest Post</span><div class="offer-price offer-price-plain"><strong>{{ latest.data.title }}</strong><span>{{ latest.data.date | readableDate }}</span></div><p>{{ latest.data.excerpt }}</p><a class="btn gold" href="{{ latest.data.href }}">Read the Post</a><a class="offer-link" href="#posts">See all posts ↓</a></div></aside>
+</div></section>
+
+<section class="funnel-proof" aria-label="Wisdom blog highlights"><div class="wrap proof-grid"><div><strong>{{ collections.blog.length }} essay{% if collections.blog.length != 1 %}s{% endif %}</strong><span>Notes on awareness &amp; practice</span></div><div><strong>Lama Michael Gregory</strong><span>Author &amp; teacher</span></div><div><strong>Short reads</strong><span>5–10 minutes each</span></div><div><strong>Free to read</strong><span>No membership required</span></div></div></section>
+
+<section class="curriculum-preview" id="posts" aria-labelledby="posts-title"><div class="wrap"><div class="curriculum-head"><div><div class="eyebrow">From the Blog</div><h2 id="posts-title">Recent Reflections</h2></div><p class="lead">Notes written between teachings, retreats, and daily practice - on awareness, awakening, and what it means to walk this path sincerely.</p></div>
+ <div class="benefit-grid retreat-grid">
+  {% for post in collections.blog %}<article><img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" loading="lazy"><div><span>{{ post.data.date | readableDate }}</span><h3>{{ post.data.title }}</h3><p>{{ post.data.excerpt }}</p><a class="btn level-button course-buy" href="{{ post.data.href }}">Read the Post</a></div></article>
+  {% endfor %}
+ </div>
+</div></section>
+
+<section class="funnel-quote"><div class="wrap quote-panel"><div class="quote-symbol" aria-hidden="true">“</div><blockquote>When we are able to relax like this, the energy invested maintaining a typical life of neurotic busyness is freed and we can release into our perfect natural state and condition.</blockquote><p>Lama Michael Gregory</p><span>From “You Are The Eyes of The World”</span></div></section>
+
+<section class="news" aria-labelledby="newsletter-title"><div class="wrap news-grid"><div><div class="eyebrow">Stay Connected</div><h2 id="newsletter-title">Dharma Teachings, Straight to Your Inbox</h2><p>One list, one weekly note: updates on live classes, courses, retreats, and new posts on the Wisdom Blog. No spam, unsubscribe anytime.</p></div>
+ <form class="newsletter" onsubmit="return false;"><input type="email" placeholder="Your email address" aria-label="Email address" required><button class="btn gold" type="submit">Subscribe</button></form>
+</div></section>
+
+<section class="funnel-final"><div class="wrap funnel-final-grid"><div><div class="eyebrow">The Path Continues Here</div><h2>Read.<br>Reflect.<br>Return to Practice.</h2><p>Explore the reflections above, or join the Sangha for live teachings and the complete recording library.</p></div><div class="final-action"><div><strong>2 essays</strong><span>free to read</span></div><a class="btn gold" href="#posts">Read the Posts <span aria-hidden="true">↑</span></a><a href="index.html">Return to the home page</a></div></div></section>
+</main>
