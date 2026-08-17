@@ -31,7 +31,116 @@ collections:
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
-          - { label: "Page content (raw HTML)", name: "body", widget: "text" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading (HTML allowed, e.g. <em>)", name: "heading", widget: "string" }
+              - { label: "Paragraph", name: "text", widget: "text" }
+          - label: "Trust strip (3 stats under the hero)"
+            name: "trustStrip"
+            widget: "list"
+            fields:
+              - { label: "Stat", name: "stat", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+          - label: "Free Course Section"
+            name: "free"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Lead paragraph", name: "lead", widget: "text" }
+              - { label: "Bullet points (one per line)", name: "bullets", widget: "list" }
+              - { label: "Note under the form", name: "note", widget: "text" }
+          - label: "About the Teacher Section"
+            name: "teacher"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Bio paragraph 1", name: "bio1", widget: "text" }
+              - { label: "Bio paragraph 2", name: "bio2", widget: "text" }
+              - { label: "Lineage heading", name: "lineageHeading", widget: "string" }
+              - { label: "Lineage subheading", name: "lineageSub", widget: "string" }
+          - label: "Our Teachers Section"
+            name: "ourTeachers"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Lead paragraph 1", name: "lead1", widget: "text" }
+              - { label: "Lead paragraph 2", name: "lead2", widget: "text" }
+              - label: "Teachers (exactly 4, in order)"
+                name: "list"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Bio line", name: "bio", widget: "string" }
+          - label: "The Dzogchen Path Section"
+            name: "path"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Lead paragraph", name: "lead", widget: "text" }
+              - { label: "Note under the steps", name: "note", widget: "text" }
+              - label: "Steps (exactly 4, in order)"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Hours label", name: "hours", widget: "string" }
+                  - { label: "Description", name: "text", widget: "text" }
+                  - { label: "Button label", name: "ctaLabel", widget: "string" }
+          - label: "Live Teachings Section"
+            name: "live"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Lead paragraph", name: "lead", widget: "text" }
+              - { label: "Membership access note", name: "accessNote", widget: "string" }
+              - label: "Weekly events"
+                name: "events"
+                widget: "list"
+                fields:
+                  - { label: "Day", name: "day", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "text", widget: "text" }
+                  - { label: "Time", name: "time", widget: "string" }
+          - label: "Membership Section"
+            name: "membership"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Lead paragraph", name: "lead", widget: "text" }
+              - { label: "Checklist items (one per line)", name: "checks", widget: "list" }
+              - { label: "Side card eyebrow", name: "sideEyebrow", widget: "string" }
+              - { label: "Side card heading", name: "sideHeading", widget: "string" }
+              - { label: "Side card text", name: "sideText", widget: "text" }
+          - label: "Quote"
+            name: "quote"
+            widget: "object"
+            fields:
+              - { label: "Quote text", name: "text", widget: "text" }
+              - { label: "Attribution", name: "cite", widget: "string" }
+          - label: "Retreat Center Section"
+            name: "retreatCenter"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Paragraph 1", name: "lead1", widget: "text" }
+              - { label: "Paragraph 2", name: "lead2", widget: "text" }
+          - label: "Newsletter Section"
+            name: "newsletter"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
       - label: "Tantra"
         name: "tantra"
         file: "tantra.njk"
