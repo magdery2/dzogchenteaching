@@ -194,4 +194,10 @@ h2{font-size:var(--font-page-title)!important}
   .funnel-faq p,
   .testimonial-grid blockquote{font-size:var(--font-body);line-height:1.65}
   .funnel-page .btn{font-size:var(--font-action-mobile)}
+  .funnel-faq summary{font-size:var(--font-body);line-height:1.4}
+  .calendar-type,
+  .calendar-time span,
+  .course-number,
+  .course-tradition,
+  .course-price-tag{font-size:var(--font-caption)}
 }

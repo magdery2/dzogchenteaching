@@ -1828,6 +1828,14 @@ h2{font-size:var(--font-page-title)!important}
 
 /* Mobile typography: readable body copy, restrained labels, fluid headings. */
 @media(max-width:680px){
+  :root{
+    --font-micro:11px;
+    --font-caption:13px;
+    --font-small:15px;
+    --font-body:17px;
+    --font-lead:19px;
+    --font-action-mobile:17px;
+  }
   body{font-size:var(--font-body);line-height:1.65}
   h2{font-size:clamp(32px,9vw,40px)!important;line-height:1.08}
   h3{font-size:clamp(24px,7vw,30px);line-height:1.15}
@@ -1848,4 +1856,7 @@ h2{font-size:var(--font-page-title)!important}
   .course-field label{font-size:var(--font-caption)}
   .btn,.hero .actions .btn{font-size:var(--font-action-mobile)}
   .course-field input{font-size:var(--font-body)}
+  input,select,textarea{font-size:var(--font-body)}
+  .navlinks a{font-size:var(--font-body);line-height:1.4}
+  main p,main li{text-wrap:pretty}
 }
