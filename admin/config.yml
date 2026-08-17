@@ -28,6 +28,8 @@ collections:
       - label: "Homepage"
         name: "index"
         file: "index.njk"
+        format: "yaml-frontmatter"
+        extension: "njk"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
@@ -141,9 +143,12 @@ collections:
               - { label: "Eyebrow", name: "eyebrow", widget: "string" }
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Text", name: "text", widget: "text" }
+          - { name: "body", widget: "hidden" }
       - label: "Tantra"
         name: "tantra"
         file: "tantra.njk"
+        format: "yaml-frontmatter"
+        extension: "njk"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
@@ -151,6 +156,8 @@ collections:
       - label: "Mahayana"
         name: "mahayana"
         file: "mahayana.njk"
+        format: "yaml-frontmatter"
+        extension: "njk"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
@@ -158,6 +165,8 @@ collections:
       - label: "Dzogchen Transmissions"
         name: "dzogchen-transmissions"
         file: "dzogchen-transmissions.njk"
+        format: "yaml-frontmatter"
+        extension: "njk"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
@@ -165,6 +174,8 @@ collections:
       - label: "Retreats"
         name: "retreats"
         file: "retreats.njk"
+        format: "yaml-frontmatter"
+        extension: "njk"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
@@ -172,6 +183,8 @@ collections:
       - label: "Membership"
         name: "membership"
         file: "membership.njk"
+        format: "yaml-frontmatter"
+        extension: "njk"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
@@ -179,6 +192,8 @@ collections:
       - label: "Donate"
         name: "donate"
         file: "donate.njk"
+        format: "yaml-frontmatter"
+        extension: "njk"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
@@ -186,6 +201,8 @@ collections:
       - label: "Wisdom Blog Listing Page"
         name: "wisdom-blog"
         file: "wisdom-blog.njk"
+        format: "yaml-frontmatter"
+        extension: "njk"
         fields:
           - { label: "Page title (browser tab)", name: "title", widget: "string" }
           - { label: "Meta description", name: "description", widget: "text" }
