@@ -770,7 +770,7 @@ footer{background:#333a45}
 .site-header.scrolled .nav{height:72px}
 .site-header.scrolled{
   box-shadow:0 8px 28px rgba(42,48,58,.12);
-  background:rgba(255,255,255,.92);
+  background:#fff;
   
 }
 @media(max-width:680px){
