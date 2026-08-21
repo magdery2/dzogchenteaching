@@ -19,16 +19,17 @@ trustStrip:
 free:
   eyebrow: Free to Begin
   heading: A Serious Introduction to Mindfulness
-  lead: "A six-week video course led personally by Lama Michael. This is the door
-    into everything else we teach: the classical foundations of Buddhist
-    mindfulness, made clear and practical."
+  lead: "A six-week video course led personally by Lama Michael. Begin by turning
+    toward your mind with curiosity and care. Through Buddhist mindfulness
+    practice, learn to notice thoughts, feelings, and reactions more clearly, and
+    make space for wiser responses."
   bullets: |
     - Six guided video classes, at your own pace
     - Watch how your mental and emotional world unfolds, non-reactively
     - Learn to respond with heart and wisdom
     - No prior experience or membership required 
-  note: Completing this course is how Lama Michael gets to know you, and where to
-    guide you next on the path.
+  note: Begin here, discover what practice asks of you, and let Lama Michael guide
+    you toward a suitable next step on the path.
 teacher:
   eyebrow: Your Teacher
   heading: About Lama Michael Gregory
@@ -48,9 +49,9 @@ ourTeachers:
   lead1: Lama Michael and Lama Philip, together with many other teachers from
     diverse backgrounds and genders, bring years of experience in teaching and
     long-term retreat practice.
-  lead2: Whether you are a beginner or an advanced student, our courses cater to
-    all levels of understanding and help you progress on your spiritual journey
-    toward enlightenment.
+  lead2: Whether you are a beginner or an advanced student, our courses offer a
+    clear place to study in sequence, develop a steady practice, and bring
+    questions to live teaching.
   list:
     - name: Lama Michael Gregory
       bio: 30+ years in the Indo-Tibetan & Theravāda traditions
@@ -63,11 +64,12 @@ ourTeachers:
 path:
   eyebrow: The Dzogchen Path
   heading: One Path, Taught in Order
-  lead: Most students move through these five stages in sequence, live and in
-    community, with Lama Michael guiding each person toward the right next step.
-  note: Not sure where you'd start? Begin with the free Mindfulness course above.
-    Lama Michael personally points every student toward their next step from
-    there.
+  lead: Are you ready to walk the path in sequence? These five stages invite you
+    to cultivate awareness, compassion, skillful means, and wisdom in community,
+    with Lama Michael guiding each person toward a suitable next step.
+  note: Not sure where to start? Begin with the free Mindfulness course above.
+    Take the first step, practise sincerely, and let your next question open the
+    way forward.
   steps:
     - title: Mindfulness
       hours: 12h of teaching
@@ -101,24 +103,34 @@ live:
       text: Mindfulness Meditation and Q&A - Dharma teachings, guided meditation and
         Q&A on bringing practice into everyday life.
       time: 8–10am PST
+      start: 08:00
+      end: 10:00
     - day: Tuesday
       title: Maha, Anu & Ati
       text: "Live and recorded with Lama Michael: the core weekly Dzogchen class,
         direct introduction to the nature of mind."
       time: 4–6pm PST
+      start: 16:00
+      end: 18:00
     - day: Thursday
       title: Tantra Teachings
       text: Teachings with Lama Philip - Buddhist Tantra teachings and Q&A. Suitable
         for practitioners with empowerment.
       time: 5–7pm PST
+      start: 17:00
+      end: 19:00
     - day: Monday
       title: Dzogchen & Mahayana
       text: Teachings with Lama Kinley - weekly Dzogchen and Mahayana teachings.
       time: 4–6pm PST
+      start: 16:00
+      end: 18:00
     - day: Every Day
       title: Daily Guided Meditations with Lama Roseanne
       text: A short guided sit to open the day, every morning.
       time: 5–6am PST
+      start: 05:00
+      end: 06:00
 membership:
   eyebrow: Support Our Dzogchen Sangha
   heading: "Vajragarbha: Dzogchen Sangha Membership"

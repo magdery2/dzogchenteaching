@@ -81,6 +81,24 @@ window.addEventListener('resize', () => {
   if (window.innerWidth > 980) setMenu(false);
 });
 
+document.querySelectorAll('a[href*="#"]').forEach((link) => {
+  link.addEventListener('click', (event) => {
+    const destination = new URL(link.href, window.location.href);
+    if (destination.pathname !== window.location.pathname || !destination.hash) return;
+
+    const target = document.getElementById(destination.hash.slice(1));
+    if (!target) return;
+
+    event.preventDefault();
+    header.classList.remove('header-hidden');
+    setMenu(false);
+    const headingTarget = target.matches('section, main') ? target.querySelector('h1, h2, h3') : target;
+    const scrollTarget = headingTarget || target;
+    scrollTarget.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    window.history.pushState(null, '', destination.hash);
+  });
+});
+
 document.querySelectorAll('[data-course-carousel]').forEach((carousel) => {
   const track = carousel.querySelector('[data-course-track]');
   const slides = [...track.children];
@@ -179,7 +197,33 @@ document.querySelectorAll('[data-course-carousel]').forEach((carousel) => {
   updateCourseControls();
 });
 
+const timezoneSelect = document.getElementById('timezone');
+const scheduleRoot = document.querySelector('.membership-calendar-first, #live');
+if (timezoneSelect && scheduleRoot) {
+  const referenceDate = new Date('2026-08-18T00:00:00-07:00');
+  const scheduleEvents = [...scheduleRoot.querySelectorAll('[data-start]')];
+  const formatTime = (time, timezone) => {
+    const date = new Date(`2026-08-18T${time}:00-07:00`);
+    return new Intl.DateTimeFormat(undefined, { timeZone: timezone, hour: 'numeric', minute: '2-digit' }).format(date);
+  };
+  const updateScheduleTimes = () => {
+    const timezone = timezoneSelect.value === 'local' ? Intl.DateTimeFormat().resolvedOptions().timeZone : timezoneSelect.value;
+    scheduleEvents.forEach((event) => {
+      const timeLabel = event.querySelector('.calendar-time strong, .event-time');
+      const zoneLabel = event.querySelector('.calendar-date small, .event-zone');
+      if (timeLabel) timeLabel.textContent = `${formatTime(event.dataset.start, timezone)}–${formatTime(event.dataset.end, timezone)}`;
+      if (zoneLabel) zoneLabel.textContent = zoneLabel.classList.contains('event-zone') ? new Intl.DateTimeFormat(undefined, { timeZone: timezone, timeZoneName: 'short' }).formatToParts(referenceDate).find((part) => part.type === 'timeZoneName').value.toUpperCase() : new Intl.DateTimeFormat(undefined, { timeZone: timezone, timeZoneName: 'short' }).formatToParts(referenceDate).find((part) => part.type === 'timeZoneName').value;
+    });
+  };
+  timezoneSelect.addEventListener('change', updateScheduleTimes);
+  updateScheduleTimes();
+}
+
 const testimonialModal = document.getElementById('testimonialModal');
+const testimonialsTitle = document.getElementById('testimonials-title');
+if (testimonialsTitle) testimonialsTitle.textContent = 'What Practitioners Say';
+const supportTitle = document.getElementById('support-title');
+if (supportTitle) supportTitle.textContent = 'Financial Support and Giving';
 if (testimonialModal) {
   const modalQuote = document.getElementById('testimonialModalQuote');
   const modalName = document.getElementById('testimonialModalName');
