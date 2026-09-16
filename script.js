@@ -197,6 +197,28 @@ document.querySelectorAll('[data-course-carousel]').forEach((carousel) => {
   updateCourseControls();
 });
 
+const libraryControls = document.querySelector('[data-library-controls]');
+if (libraryControls) {
+  const search = libraryControls.querySelector('[data-library-search]');
+  const topic = libraryControls.querySelector('[data-library-topic]');
+  const author = libraryControls.querySelector('[data-library-author]');
+  const cards = [...document.querySelectorAll('[data-course-card]')];
+  const count = document.querySelector('[data-library-count]');
+  const empty = document.querySelector('[data-library-empty]');
+  const updateLibrary = () => {
+    const query = search.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach((card) => {
+      const matches = (!query || card.dataset.title.includes(query)) && (!topic.value || card.dataset.topic === topic.value) && (!author.value || card.dataset.author === author.value);
+      card.hidden = !matches;
+      if (matches) visible += 1;
+    });
+    count.textContent = visible;
+    empty.hidden = visible !== 0;
+  };
+  [search, topic, author].forEach((control) => control.addEventListener('input', updateLibrary));
+}
+
 const timezoneSelect = document.getElementById('timezone');
 const scheduleRoot = document.querySelector('.membership-calendar-first, #live');
 if (timezoneSelect && scheduleRoot) {

@@ -1,0 +1,810 @@
+{
+   "authors" : [
+      "Davita Moodley",
+      "Lama Christopher Wilkinson",
+      "Lama Kinley",
+      "Lama Michael Gregory",
+      "Lama Pemba"
+   ],
+   "items" : [
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-092-anapanasati.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/10-day-anapanasati-retreat",
+         "title" : "10 Day Anapanasati Retreat 2019",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-074-mahamudra-buddha.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/10-day-mahamudra-retreat",
+         "title" : "10 Day Mahamudra Retreat 2020",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-020-20231226-202301041-mahamudra-retreat.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/10-day-mahamudra-retreat-realizing-the-nature-of-mind-a-retreat-with-lama-michael",
+         "title" : "10 Day Mahamudra Retreat, Realizing The Nature of Mind: A Retreat with Lama Michael 2023",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Kinley",
+         "image" : "/images/course-library/course-library-058-buddha-dxogchen.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/12-week-t",
+         "title" : "12 Week Tibetan Yoga: Tsalung Trulkhor",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-095-thousand-arm-chenrezig.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/30-day-chenrezig-mahamudra-retreat",
+         "title" : "30 Day Chenrezig Mahamudra Retreat 2021",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-038-rainbowsamantabadra.png",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/an-extraordinary-journey-into-the-heart-of-buddhist-meditation-retreat1",
+         "title" : "30-Day Dzogchen Retreat with Longchenpa’s Pith Instructions 2025",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-030-1982-2.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/an-extraordinary-journey-into-the-heart-of-buddhist-meditation-retreat",
+         "title" : "30 Day Retreat: The Heart of Buddhist Meditation Retreat 2024",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-088-amitabha-mandala.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/amitabha-weekend-retreat-81421",
+         "title" : "Amitabha Weekend Retreat 2021",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "https://uploads.teachablecdn.com/attachments/d0e6ab8e6fcb4107867417478c56ce33.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/an-introduction-on-the-five-elements-2026",
+         "title" : "An Introduction on the Five Elements - 1 day retreat 2026",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-072-archetypal-transformation-into-wisdom-tantra-made-simple.png",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/archetypal-transformation-into-wisdom-tantra-made-simple-10-day-retreat",
+         "title" : "Archetypal Transformation Into Wisdom - Tantra Made Simple 10 Day Retreat 2019",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "https://uploads.teachablecdn.com/attachments/Rc750oLjSO6tjJEG3q3F_Sleeping%2BBuddha.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/awakening-within-the-dream-10-day-dream-yoga-retreat",
+         "title" : "Awakening Within the Dream: 10 Day Dream Yoga Retreat 2022",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "/images/course-library/course-library-033-kagyulineagetreelables.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/awakwen-the-mind-series-2025-chenrezig-embodying-compassion-with-lama-lhundrup",
+         "title" : "Awaken the Mind 2025 Retreat Series: Chenrezig, Embodying Compassion with Lama Lhundrup",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "https://uploads.teachablecdn.com/attachments/ab730af24c31495f8c4833ca2c22893a.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/awaken-the-mind-2025-retreat-series-distinguishing-samsara-and-nirvana-khorde-rushen",
+         "title" : "Awaken the Mind 2025 Retreat Series: Distinguishing Samsara and Nirvana, Khorde Rushen",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "https://uploads.teachablecdn.com/attachments/23c9e2fc8fb84670b78a773cdaf3c6cb.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/awaken-the-mind-2025-retreat-series-finding-path-purpose-genuine-well-being-in-tibetan-buddhism-and-contemplative-science",
+         "title" : "Awaken the Mind 2025 Retreat Series: Finding Path & Purpose, Genuine Well-Being in Tibetan Buddhism and Contemplative Science",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "/images/course-library/course-library-033-kagyulineagetreelables.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/awaken-the-mind-2025-retreat-series-heart-of-forgiveness-with-lama-choying",
+         "title" : "Awaken the Mind 2025 Retreat Series: HeART of Forgiveness with Lama Choying",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "/images/course-library/course-library-033-kagyulineagetreelables.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/awaken-the-mind-2025-retreat-series-mindfulness-as-the-buddha-taught-with-lama-choying",
+         "title" : "Awaken the Mind 2025 Retreat Series: Mindfulness as the Buddha Taught with Lama Choying",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "https://uploads.teachablecdn.com/attachments/b5a23c7b53cd435a89cda41af1a85bd8.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/the-four-thoughts-that-turn-our-mind-toward-dharma-weekend-retreat-2025",
+         "title" : "Awaken the Mind 2025 Retreat Series: The Four Thoughts That Turn Our Mind Toward Dharma",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "/images/course-library/course-library-033-kagyulineagetreelables.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/awaken-the-mind-2025-retreat-series-why-do-we-meditate-with-matt-vagg",
+         "title" : "Awaken the Mind 2025 Retreat Series: Why do we meditate? with Matt Vagg",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-019-img-0737.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/bardo-weekend-retreat",
+         "title" : "Bardo Weekend Retreat 2022",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "https://uploads.teachablecdn.com/attachments/3f2b6a3eacac4cf3bfdb4cd946a9a61f.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/bringing-relationships-to-the-path",
+         "title" : "Bringing Relationships to the Path 2026",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "https://uploads.teachablecdn.com/attachments/aba2fb0156b84d12b30f87274b1c13e7.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/connecting-with-dakini-wisdom",
+         "title" : "Connecting with Dakini Wisdom - 1 day retreat 2026",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-059-sutra.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-11-the-diamond-sutra",
+         "title" : "Course 10: The Diamond Sutra",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-106-course-9-michael.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-12-the-bodhisattvas-way-of-life-compassion-in-challenging-times",
+         "title" : "Course 11: The Bodhisattva&#x27;s Way of Life: Compassion in Challenging Times",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-103-image-course-10.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-13-bodhisattvas-way-of-life-wisdom-chapter",
+         "title" : "Course 12: Bodhisattva&#x27;s Way of Life, Wisdom Chapter",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-087-lojong-geshe-langri-thangpa.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-14-lojong-mind-training",
+         "title" : "Course 13: Lojong Mind Training",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-077-course-12.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-15-buddhist-logic-cultivating-valid-cognition-and-valid-perception",
+         "title" : "Course 14: Buddhist Logic: Cultivating Valid Cognition and Valid Perception",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-081-1b6da67a-9af3-44dc-88c1-b32161ed7215.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-16-buddha-nature-teachings",
+         "title" : "Course 15: Buddha Nature Teachings",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-107-convert.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-17-ngondro-uncommon-preliminaries",
+         "title" : "Course 16: Ngondro Uncommon Preliminaries",
+         "topic" : "Vajrayana"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-083-five-buddhas.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-18-distinguishing-consciousness-from-wisdom",
+         "title" : "Course 17: Distinguishing Consciousness from Wisdom",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-098-6.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-19-creation-and-completion",
+         "title" : "Course 18: Creation and Completion",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-084-six-yogas-nds.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-20-six-yogas-of-naropa",
+         "title" : "Course 19: Six Yogas of Naropa",
+         "topic" : "Vajrayana"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-064-intro-to-mindfulness.png",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/mindfulness-6-week-series",
+         "title" : "Course 1: A Serious Introduction to Mindfulness Meditation",
+         "topic" : "Meditation"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-085-ah.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-21-foundations-of-dzogchen",
+         "title" : "Course 20: Foundations of Dzogchen",
+         "topic" : "Dzogchen"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-078-course-16-2-captioned.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-22-separating-samsara-from-nirvana-korde-rushen",
+         "title" : "Course 21: Separating Samsara from Nirvana: Khorde&#x27; Rushen",
+         "topic" : "Dzogchen"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-080-thogal-pose.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-23-spontaneous-presence-dzogchen-thogal",
+         "title" : "Course 22: Spontaneous Presence Dzogchen Thogal",
+         "topic" : "Dzogchen"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-105-3582.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-24-subtle-body-profound-inner-meaning",
+         "title" : "Course 23: Subtle Body Profound Inner Meaning",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-073-2d13eddf-2227-4801-b37e-2561e4681957.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-25-the-all-creating-king",
+         "title" : "Course 24: The All-Creating King - Kunjyed Gyalpo Tantra",
+         "topic" : "Vajrayana"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-107-convert.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-26-king-of-infinite-vast-space-and-vajra-bridge",
+         "title" : "Course 25: King of Infinite Vast Space and Vajra Bridge",
+         "topic" : "Vajrayana"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-093-tilopa.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-17-mahamudra1",
+         "title" : "Course 26: Mahamudra: The Ocean of Definitive Meaning",
+         "topic" : "Mahamudra"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-097-4828.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/the-way-to-enhance-the-development-of-non-dual-practice-becoming-stable-and-proficient",
+         "title" : "Course 27: Enhancing Non Dual Meditation 12 Week Course",
+         "topic" : "Meditation"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-096-maham.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-28-the-four-yogas-of-mahamudra",
+         "title" : "Course 28: The Four Yogas of Mahamudra, A Journey Through the Stages of Realization",
+         "topic" : "Mahamudra"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "/images/course-library/course-library-054-mahamudra.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/the-basic-space-of-phenomena-course-with-lama-michael1",
+         "title" : "Course 29: The Precious Treasury of the Basic Space of Phenomena 12 Week Dzogchen Course",
+         "topic" : "Dzogchen"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-066-buddha-image-02.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-3-illuminating-the-path-stages-to-enlightenment",
+         "title" : "Course 2: Illuminating the Path - Stages to Enlightenment",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-006-9844.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/course-31-the-basic-space-of-phenomena-the-four-resting-s-and-three-samadhi-s",
+         "title" : "Course 30: The Basic Space of Phenomena, The Four Resting&#x27;s and Three Samadhi’s",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "https://uploads.teachablecdn.com/attachments/a2598eb38c134fef8cc38e0ec7352aba.webp",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/dzogchenguruyoga",
+         "title" : "Course 31: Dzogchen Guru Yoga",
+         "topic" : "Dzogchen"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "https://uploads.teachablecdn.com/attachments/e70ac9080f97408a801ef8c67bbfb4a0.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/the-dra-thal-gyur",
+         "title" : "Course 32: A Rare Transmission, The Dra Thal Gyur The Reverberation of Sound Tantra",
+         "topic" : "Vajrayana"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-100-image12.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-4-perfection-of-wisdom-the-ornament-of-clear-realization",
+         "title" : "Course 3: Perfection of Wisdom, The Ornament of Clear Realization",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-102-6-realms.png",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-5-exploring-the-realms-of-existence",
+         "title" : "Course 4: Exploring the Realms of Existence",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-099-buddha.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-6-buddhist-logic-proof-of-past-and-future-lives",
+         "title" : "Course 5: Buddhist Logic Proof of Past and Future Lives",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-067-course-5-karma.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-7-karma",
+         "title" : "Course 6: Karma",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-054-mahamudra.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-8-mahamudra",
+         "title" : "Course 7: Mahamudra, Pointing Out The Dharmakaya",
+         "topic" : "Mahamudra"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-065-images-3.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-9-the-bodhisattvas-way-of-life",
+         "title" : "Course 8: The Bodhisattva&#x27;s Way of Life",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-100-image12.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/course-10-the-bodhisattva-vow",
+         "title" : "Course 9: The Bodhisattva Vow",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "/images/course-library/course-library-005-daily-med-2024.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/daily-meditation-practice-2024",
+         "title" : "Daily Practice Sessions for Tuesday Night Class 2024",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-036-20231027-deity-retreat.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/deity-yoga-weekend-retreat",
+         "title" : "Deity Yoga Weekend Retreat 2023",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-076-discovering-your-elegant-nature-10-day-mahamudra-retreat.png",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/discovering-your-elegant-nature-10-day-mahamudra-retreat",
+         "title" : "Discovering Your Elegant Nature 10 Day Mahamudra Retreat 2018",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-107-convert.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/dissolution-of-elements-and-consciousness-into-awareness",
+         "title" : "Dissolution of Elements and Consciousness into Awareness 2023",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "https://uploads.teachablecdn.com/attachments/7bb031b53953417db4a4b0eb01f5b9f7.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/dream-yoga-the-intimate-relationship-of-dreaming-death-and-liberation",
+         "title" : "Dream Yoga 2025 - 2026: The Intimate Relationship of Dreaming, Death, and Liberation",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-114-dzogchen-transmissions.png",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/dzogchen-tantras-english-transmissions",
+         "title" : "Dzogchen Tantras English Transmissions",
+         "topic" : "Dzogchen"
+      },
+      {
+         "author" : "Lama Kinley",
+         "image" : "/images/course-library/course-library-043-rongzom-chokyi-zangpo.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/1",
+         "title" : "Establishment of Appearance as Deity 2025",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-101-midst-of-pain.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/finding-joy-in-the-midst-of-pain",
+         "title" : "Finding Joy in the Midst of Pain 2011",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-089-great-perfection-mind.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/great-perfection-mind-training-weekend-retreat",
+         "title" : "Great Perfection Mind-Training Weekend Retreat 2020",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-099-buddha.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/heart-sutra-2024",
+         "title" : "Heart Sutra 2024",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-053-mail.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/heart-sutra-meditation-with-lama-philip",
+         "title" : "Heart Sutra Meditation Weekend Retreat with Lama Philip 2023",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-047-manjushri-2.webp",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/illuminating-wisdom-manjushri-weekend-retreat",
+         "title" : "Illuminating Wisdom: Manjushri Weekend Retreat 2024",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-035-infinite-bliss.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/infinite-bliss-a-retreat-on-the-union-of-the-illusory-body-and-clear-light-weekend-retreat",
+         "title" : "Infinite Bliss: A Retreat On the Union of the Illusory Body and Clear Light Weekend Retreat 2021",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-071-shakyamuni-buddha-thangka.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/introduction-to-mindfulness-of-breathing-weekend-retreat",
+         "title" : "Introduction to Mindfulness of Breathing -Weekend Retreat 2021",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-037-d9ffbfad-cf0e-4f39-a7b2-db73bbcbcd7c.webp",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/karma-and-enlightenment",
+         "title" : "Karma and Enlightenment Weekend Retreat 2024",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Kinley",
+         "image" : "/images/course-library/course-library-023-2489.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/longchen-nynthig-ngondro",
+         "title" : "Longchen Nyingthik Ngondro 2024",
+         "topic" : "Dzogchen"
+      },
+      {
+         "author" : "Lama Kinley",
+         "image" : "/images/course-library/course-library-104-steps-to-the-great-perfection.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/longchenpa-mind-training",
+         "title" : "Longchenpa Mind-Training",
+         "topic" : "Dzogchen"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-090-lucid-img.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/lucid-dreaming-retreat",
+         "title" : "Lucid Dreaming Retreat 2018",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "https://uploads.teachablecdn.com/attachments/42c14726688741d9a12409edb21daab4.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/mahamudra-the-majestic-nature-of-mind-2026",
+         "title" : "Mahamudra, The Majestic Nature of Mind 2026",
+         "topic" : "Mahamudra"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-082-meditations-on-emptiness.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/meditations-on-emptiness-weekend-retreat",
+         "title" : "Meditations on Emptiness Weekend Retreat 2021",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "/images/course-library/course-library-057-buddha-with-kitten.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/meditations-on-the-4-foundations-of-mindfulness-and-loving-kindness",
+         "title" : "Meditations on the 4 Foundations of Mindfulness and Loving Kindness",
+         "topic" : "Meditation"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-053-mail.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/mental-quiescence-shamata",
+         "title" : "Mental Quiescence (Shamata) 2023",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-068-bahiya.png",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/mindfulness-of-realization-the-bahiya-sutra-weekend-retreat",
+         "title" : "Mindfulness of Realization: The Bahiya Sutra Weekend Retreat 2021",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "https://uploads.teachablecdn.com/attachments/1df42b2de4854507adb49ce7ac956ac3.jpeg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/openingheartmindfulness",
+         "title" : "Opening The Heart, Mindfulness and Transforming Destructive Emotions with Lama Michael Retreat 2025",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-091-personal-evolut-tantra.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/personal-evolution-of-tantra-2021",
+         "title" : "Personal Evolution of Tantra, 2021",
+         "topic" : "Vajrayana"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "https://uploads.teachablecdn.com/attachments/fbde56d1873f4c348df281e175279e5e.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/returning-to-the-breath-the-body-and-the-original-teachings-1-day-retreat-2026",
+         "title" : "Returning to the Breath, the Body, and the Original Teachings - 1 day retreat 2026",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "/images/course-library/course-library-039-senior-lamas.webp",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/mindful-sundays",
+         "title" : "Sacred Sundays",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-061-six-perfections-weekend-retreat-2019.png",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/six-perfections-weekend-retreat-2019",
+         "title" : "Six Perfections Weekend Retreat 2019",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-060-six-yogas-of-naropa.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/six-yogas-of-naropa-weekend-retreat",
+         "title" : "Six Yogas of Naropa Weekend Retreat 2021",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Kinley",
+         "image" : "https://uploads.teachablecdn.com/attachments/e2f7b300fd2340558a2727a28d2fd5cf.jpeg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/appearance-of-the-pure-deities",
+         "title" : "Stabilizing Awareness and Cultivating Compassion",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-052-238854c7-b999-4aad-9fa3-3c8df11c706a.png",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/ten-day-white-tara-mahamudra-retreat-with-lama-phillip",
+         "title" : "Ten Day White Tara Mahamudra Retreat with Lama Phillip 2024",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "https://uploads.teachablecdn.com/attachments/f4ERg2OTQSfZbqB9GeQ5_1200px-White-A_%2528Dzogchen%2529.svg.png",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/the-awakened-mind-10-day-dzogchen-retreat",
+         "title" : "The Awakened Mind: 10 Day Dzogchen Retreat 2020",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-025-dzogchen.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/the-basic-space-of-phenomena-retreat-with-lama-michael",
+         "title" : "The Basic Space of Phenomena 7 Day Retreat 2025",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-110-10.png",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/theravada-teachings",
+         "title" : "The Foundations of Buddhism: Theravada Teachings",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-022-shakyamuni-buddha-4-foundations.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/four-foundations-10-day-retreat-2021",
+         "title" : "The Four Foundations of Mindfulness, the Direct Path to Nibbana - 10 Day Retreat 2021",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-051-green-tara-1.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/the-great-mother-tantra-green-tara",
+         "title" : "The Great Mother Tantra: Green Tara 2024",
+         "topic" : "Vajrayana"
+      },
+      {
+         "author" : "Lama Christopher Wilkinson",
+         "image" : "/images/course-library/course-library-063-wilkinson-the-great-tantra-of-vajrasattva.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/the-great-tantra-of-vajrasattva",
+         "title" : "The Great Tantra of Vajrasattva",
+         "topic" : "Vajrayana"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-014-vajrakilaya-sales-page.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/the-great-tantra-vajrakilaya",
+         "title" : "The Great Tantra: Vajrakilaya 2024",
+         "topic" : "Vajrayana"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "https://uploads.teachablecdn.com/attachments/93ca5381a4dd4725b6877760beffe884.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/the-jewel-maker-a-30-day-dzogchen-immersion-summer-retreat",
+         "title" : "The Jewel Maker — A 30-Day Dzogchen Immersion Summer Retreat, 2026",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-060-six-yogas-of-naropa.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/the-six-yogas-of-naropa-retreat-with-lama-glenn-mullin",
+         "title" : "The Six Yogas of Naropa Retreat with Lama Glenn Mullin 2020",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-029-chenpic.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/the-union-of-mahamudra-and-dzogchen-weekend-retreat",
+         "title" : "The Union of Mahamudra and Dzogchen Weekend Retreat 2022",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "https://uploads.teachablecdn.com/attachments/955e935191b54cacb5abe4555f58d282.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/the-basic-space-of-phenomena-retreat-with-lama-michael1",
+         "title" : "The Way of Abiding Week Long Dzogchen Retreat 2026",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Kinley",
+         "image" : "/images/course-library/course-library-079-way-of-the-bodhisattva.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/the-way-of-the-bodhisattva",
+         "title" : "The Way of the Bodhisattva",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Kinley",
+         "image" : "/images/course-library/course-library-043-rongzom-chokyi-zangpo.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/11",
+         "title" : "The Words of My Perfect Teacher by Patrul Rinpoche",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "https://uploads.teachablecdn.com/attachments/2bbd16f4394e4e9aa26aaa865ee87208.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/tibetan-yoga-practices-nam-cho-tsa-lung-trulkhor",
+         "title" : "Tibetan Yoga Practices, Weekend Retreat 2025: Nam Chö Tsa Lung Trulkhor",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-120-stages-path.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/bundle/266935/vajragarbha-the-complete-teachings-on-stages-to-the-path-of-enlightenment",
+         "title" : "Vajragarbha: The Complete Teachings on Stages to The Path of Enlightenment",
+         "topic" : "Vajrayana"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-001-vajrakilaya.webp",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/vajrakilaya-weekend-retreat",
+         "title" : "Vajrakilaya Weekend Retreat 2024",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-004-0095.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/wanderer-of-the-sky-the-life-songs-and-practice-of-shabkar",
+         "title" : "Wanderer of the Sky The Life, Songs, and Practice of Shabkar",
+         "topic" : "Buddhism"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-069-chenrezig-dalai-lama-1.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/weekend-retreat-absolute-and-relative-chenrezig-with-lama-phillip",
+         "title" : "Weekend Retreat: Absolute and Relative Chenrezig with Lama Phillip 2020",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-026-advanced-four-foundations-of-mindfulness-for-yogis.png",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/weekend-retreat-advanced-four-foundations-of-mindfulness-for-yogis",
+         "title" : "Weekend Retreat: Advanced Four Foundations of Mindfulness for Yogis 2022",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-044-forgiveness.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/weekend-retreat-cultivating-forgiveness-loving-kindness-equanimity-and-joy",
+         "title" : "Weekend Retreat: Cultivating Forgiveness, Loving Kindness, Equanimity, and Joy 2023",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-018-lama-p-spring-retreat-2025.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/weekend-retreat-dzogchen-and-mahmudra-2025",
+         "title" : "Weekend Retreat: Dzogchen and Mahamudra 2025",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "https://uploads.teachablecdn.com/attachments/ea030b2a0d1a4a7ca6d5c14ecdd9bbd1.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/weekend-retreat-dzogchen-in-everyday-life-living-without-a-self-2026",
+         "title" : "Weekend Retreat: Dzogchen In Everyday Life Living Without a Self, 2026",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "/images/course-library/course-library-108-phillips-retreat-lions-roar.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/weekend-retreat-lion-s-roar-that-explains-tathagatagarbha",
+         "title" : "﻿Weekend Retreat: Lion’s Roar That Explains “Tathagatagarbha” 2020",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "https://uploads.teachablecdn.com/attachments/fcf7ff58b2a9430690c84f2d130cc11e.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/weekend-retreat-teachings-and-meditations-on-the-state-of-pure-being-2026",
+         "title" : "Weekend Retreat: Teachings and Meditations on the State of Pure Being, 2026",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Kinley",
+         "image" : "/images/course-library/course-library-028-bodhichitta-lukang.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/weekend-retreat-the-essence-of-bodhicitta-2025",
+         "title" : "Weekend Retreat: The Essence of Bodhicitta 2025 ",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "https://uploads.teachablecdn.com/attachments/ab42c81c3b564bcc803b33023db04202.webp",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/weekend-retreat-the-four-dharmas-of-gampopa-with-lama-pemba",
+         "title" : "Weekend Retreat: The Four Dharmas of Gampopa with Lama Pemba",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Davita Moodley",
+         "image" : "https://uploads.teachablecdn.com/attachments/4028247ed96b4881889432d19b6611de.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/weekend-retreat-the-four-immeasurables-2026",
+         "title" : "Weekend Retreat: The Four Immeasurables 2026",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Pemba",
+         "image" : "https://uploads.teachablecdn.com/attachments/6bad3270cf1944f690f160cbd6626f14.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/l/pdp/the-ganges-mahamudra-teachings-of-the-great-mahasiddhas-tilopa-and-vajradhara",
+         "title" : "Weekend Retreat: The Ganges Mahamudra Teachings of the Great Mahasiddhas, Tilopa and Vajradhara 2025",
+         "topic" : "Retreats"
+      },
+      {
+         "author" : "Lama Michael Gregory",
+         "image" : "/images/course-library/course-library-107-convert.jpg",
+         "link" : "https://buddhist-and-dzogchen-teachings.teachable.com/p/you-are-the-eyes-of-the-world-30-day-dzogchen-retreat",
+         "title" : "You Are The Eyes of The World 30 Day Dzogchen Retreat 2023",
+         "topic" : "Retreats"
+      }
+   ],
+   "topics" : [
+      "Buddhism",
+      "Dzogchen",
+      "Mahamudra",
+      "Meditation",
+      "Retreats",
+      "Vajrayana"
+   ]
+}
